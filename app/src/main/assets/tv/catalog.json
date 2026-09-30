@@ -1,0 +1,816 @@
+{
+ "version": 5,
+ "note": "Danh mục Live TV của DriveTune. Sửa file này trên nhánh main là mọi máy tự cập nhật trong 24 giờ, không cần ra bản mới. Chỉ thêm luồng miễn phí, xem được ngay; không thêm luồng cần đăng nhập, DRM hay header giả, không thêm kênh trả tiền. Kênh Việt Nam lấy từ tv/vietnam.m3u (mọi thể loại, kể cả tin tức, kể cả luồng phát lại của đài miễn phí — chỉ giữ kênh đã thử phát được). Chỉ giữ kênh tiếng Anh, tiếng Việt (\"languages\"); mục quốc tế chỉ giải trí, nhạc, khoa học: \"excludeGroups\" bỏ các thể loại tin tức / chính trị / kinh doanh / tôn giáo / bán hàng / đài tổng hợp ở mọi nguồn (trừ nguồn tự khai excludeGroups riêng). Mỗi lần sửa nhớ tăng \"version\": app bỏ qua bản từ xa cũ hơn bản kèm trong app.",
+ "languages": ["en", "vi"],
+ "blockedHosts": [
+  "sctvdrm",
+  "vnns.net",
+  "bozztv.com",
+  "short.gy",
+  "antik.sk",
+  "smartplaytv.in",
+  "mcquack.net",
+  "tangotv.in",
+  "jmp2.uk",
+  "cinerama.uz",
+  "anixa.tv",
+  "meung.app",
+  "xemzi",
+  "ddns",
+  "dyndns",
+  "no-ip",
+  "github.io",
+  "pages.dev",
+  "workers.dev",
+  "mjh.nz",
+  "githubusercontent"
+ ],
+ "sources": [
+  {
+   "category": "vietnam",
+   "url": "https://raw.githubusercontent.com/mjnamjkaze/DriveTune/main/tv/vietnam.m3u",
+   "label": "DriveTune (đã thử phát)",
+   "limit": 200,
+   "excludeGroups": []
+  },
+  {
+   "category": "sports",
+   "url": "https://iptv-org.github.io/iptv/categories/sports.m3u",
+   "label": "iptv-org",
+   "limit": 100
+  },
+  {
+   "category": "movies",
+   "url": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+   "label": "iptv-org",
+   "limit": 100
+  },
+  {
+   "category": "kids",
+   "url": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+   "label": "iptv-org",
+   "limit": 100
+  },
+  {
+   "category": "music",
+   "url": "https://iptv-org.github.io/iptv/categories/music.m3u",
+   "label": "iptv-org",
+   "limit": 100
+  },
+  {
+   "category": "documentary",
+   "url": "https://iptv-org.github.io/iptv/categories/documentary.m3u",
+   "label": "iptv-org",
+   "limit": 100
+  },
+  {
+   "category": "entertainment",
+   "url": "https://iptv-org.github.io/iptv/categories/entertainment.m3u",
+   "label": "iptv-org",
+   "limit": 100
+  },
+  {
+   "category": "international",
+   "url": "https://raw.githubusercontent.com/mjnamjkaze/DriveTune/main/tv/english.m3u",
+   "label": "iptv-org (tiếng Anh, DriveTune đã thử phát)",
+   "limit": 300
+  },
+  {
+   "category": "documentary",
+   "url": "https://iptv-org.github.io/iptv/categories/science.m3u",
+   "label": "iptv-org",
+   "limit": 100
+  }
+ ],
+ "epg": [
+  {
+   "url": "https://epg.pw/xmltv/epg_VN.xml",
+   "label": "epg.pw"
+  }
+ ],
+ "channels": [
+  {
+   "id": "AnNinhTV.vn@HD",
+   "name": "ANTV",
+   "country": "VN",
+   "language": "vi",
+   "categories": [
+    "vietnam"
+   ],
+   "logo": "https://static.wikia.nocookie.net/logos/images/1/1a/ANTV_2023.png/revision/latest/scale-to-width-down/512?path-prefix=vi",
+   "url": "https://liveh12.vtvprime.vn/hls/ANNINHTV/index.m3u8",
+   "source": "liveh12.vtvprime.vn",
+   "epgName": "ANTV"
+  },
+  {
+   "id": "QPVN.vn@HD",
+   "name": "QPVN",
+   "country": "VN",
+   "language": "vi",
+   "categories": [
+    "vietnam"
+   ],
+   "logo": "https://i.imgur.com/GQO7UNu.png",
+   "url": "https://liveh12.vtvprime.vn/hls/QPTV/index.m3u8",
+   "source": "liveh12.vtvprime.vn",
+   "epgName": "QPVN (HD)"
+  },
+  {
+   "id": "HanoiTV1.vn@SD",
+   "name": "Hà Nội 1",
+   "country": "VN",
+   "language": "vi",
+   "categories": [
+    "vietnam",
+    "entertainment"
+   ],
+   "logo": "https://i.imgur.com/Je3K25E.png",
+   "url": "https://liveh34.vtvprime.vn/hls/HANOI1TV/index.m3u8",
+   "source": "liveh34.vtvprime.vn",
+   "epgName": "Hà Nội 1  HD"
+  },
+  {
+   "id": "CanThoTV.vn@SD",
+   "name": "Cần Thơ TV",
+   "country": "VN",
+   "language": "vi",
+   "categories": [
+    "vietnam",
+    "regional"
+   ],
+   "logo": "https://i.ibb.co/MDhNH26J/cantho1-2025.png",
+   "url": "https://live.canthotv.vn/live/tv/chunklist.m3u8",
+   "source": "live.canthotv.vn",
+   "epgName": "Cần Thơ TV1"
+  },
+  {
+   "id": "DongNaiTV1.vn@SD",
+   "name": "Đồng Nai 1",
+   "country": "VN",
+   "language": "vi",
+   "categories": [
+    "vietnam",
+    "regional"
+   ],
+   "logo": "https://i.imgur.com/oQyioVa.png",
+   "url": "https://vtvgolive-ott3.vtvdigital.vn/live/dongnai1tv/chunklist_2.m3u8",
+   "source": "vtvgolive-ott3.vtvdigital.vn",
+   "epgName": "Đồng Nai 1 HD"
+  },
+  {
+   "id": "DongThapTV.vn@SD",
+   "name": "Đồng Tháp TV",
+   "country": "VN",
+   "language": "vi",
+   "categories": [
+    "vietnam",
+    "regional"
+   ],
+   "logo": "https://i.ibb.co/XFX7yw0/logo2-1.png",
+   "url": "https://liveh34.vtvprime.vn/hls/DONGTHAPTV/index.m3u8",
+   "source": "liveh34.vtvprime.vn",
+   "epgName": "Đồng Tháp TV1"
+  },
+  {
+   "id": "ThaiNguyenTV.vn@SD",
+   "name": "Thái Nguyên TV",
+   "country": "VN",
+   "language": "vi",
+   "categories": [
+    "vietnam",
+    "regional"
+   ],
+   "logo": "https://thainguyentv.vn/modules/frontend/themes/ptthtn/images/logo.png",
+   "url": "https://streaming.thainguyentv.vn/hls/livestream.m3u8",
+   "source": "streaming.thainguyentv.vn",
+   "epgName": "Thái Nguyên"
+  },
+  {
+   "id": "AnGiangTV1.vn@SD",
+   "name": "An Giang 1",
+   "country": "VN",
+   "language": "vi",
+   "categories": [
+    "vietnam",
+    "regional"
+   ],
+   "logo": "https://i.imgur.com/mgp6RAU.png",
+   "url": "https://tv.angiangtv.vn/live/kgtv/kgtv.m3u8",
+   "source": "tv.angiangtv.vn",
+   "epgName": "An Giang 1",
+   "geoBlocked": true
+  },
+  {
+   "id": "VietnamToday.vn@HD",
+   "name": "Vietnam Today",
+   "country": "VN",
+   "language": "vi",
+   "categories": [
+    "vietnam",
+    "international"
+   ],
+   "logo": "https://i.imgur.com/xW9rY7s.png",
+   "url": "https://amagi-live.ondemandkorea.com/amgplt0456.m3u8",
+   "source": "amagi-live.ondemandkorea.com",
+   "epgName": "Vietnam Today"
+  },
+  {
+   "id": "PBSKids.us@SD",
+   "name": "PBS Kids",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "kids"
+   ],
+   "logo": "https://i.imgur.com/fg8c9WK.png",
+   "url": "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8",
+   "source": "livestream.pbskids.org"
+  },
+  {
+   "id": "BabySharkTV.us@SD",
+   "name": "Baby Shark TV",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "kids",
+    "music"
+   ],
+   "logo": "https://i.imgur.com/SbBKr8L.png",
+   "url": "https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8",
+   "source": "newidco-babysharktv-1-us.roku.wurl.tv"
+  },
+  {
+   "id": "KartoonChannel.us@SD",
+   "name": "Kartoon Channel!",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "kids"
+   ],
+   "logo": "https://i.imgur.com/1luzP3T.png",
+   "url": "https://lightning-fnf-samsungaus.amagi.tv/playlist.m3u8",
+   "source": "lightning-fnf-samsungaus.amagi.tv"
+  },
+  {
+   "id": "RedBullTV.at@SD",
+   "name": "Red Bull TV",
+   "country": "AT",
+   "language": "en",
+   "categories": [
+    "sports"
+   ],
+   "logo": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
+   "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
+   "source": "rbmn-live.akamaized.net"
+  },
+  {
+   "id": "TraceSportStars.fr@HD",
+   "name": "Trace Sport Stars",
+   "country": "FR",
+   "language": "en",
+   "categories": [
+    "sports"
+   ],
+   "logo": "https://i.imgur.com/FabFP5A.png",
+   "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+   "source": "lightning-tracesport-samsungau.amagi.tv"
+  },
+  {
+   "id": "TraceUrban.fr@SD",
+   "name": "Trace Urban",
+   "country": "FR",
+   "language": "en",
+   "categories": [
+    "music"
+   ],
+   "logo": "https://i.imgur.com/DLIbUMx.png",
+   "url": "https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8",
+   "source": "lightning-traceurban-samsungau.amagi.tv"
+  },
+  {
+   "id": "TraceUK.uk@HD",
+   "name": "Trace UK",
+   "country": "GB",
+   "language": "en",
+   "categories": [
+    "music"
+   ],
+   "logo": "https://a.jsrdn.com/hls/23073/trace-uk/logo_20240627_183320_70.png",
+   "url": "https://channels.trace.plus/Traceprod/UK_FAST_hd/index.m3u8",
+   "source": "channels.trace.plus"
+  },
+  {
+   "id": "RakutenTVTopMovies.es@Spain",
+   "name": "Rakuten TV Top Movies",
+   "country": "ES",
+   "language": "en",
+   "categories": [
+    "movies"
+   ],
+   "logo": "https://i.imgur.com/Meew6eX.png",
+   "url": "https://ff335120300e4742a2b135ee9a9e7df8.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5983/master.m3u8",
+   "source": "ff335120300e4742a2b135ee9a9e7df8.mediatailor.eu-west-1.amazonaws.com"
+  },
+  {
+   "id": "RakutenTVActionMovies.es@Spain",
+   "name": "Rakuten TV Action Movies",
+   "country": "ES",
+   "language": "en",
+   "categories": [
+    "movies"
+   ],
+   "logo": "https://i.imgur.com/Meew6eX.png",
+   "url": "https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8",
+   "source": "a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com"
+  },
+  {
+   "id": "BBCEarth.uk@US",
+   "name": "BBC Earth",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "documentary"
+   ],
+   "logo": "https://i.imgur.com/nGSsUd4.png",
+   "url": "https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8",
+   "source": "amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv"
+  },
+  {
+   "id": "CGTNDocumentary.cn@SD",
+   "name": "CGTN Documentary",
+   "country": "CN",
+   "language": "en",
+   "categories": [
+    "documentary"
+   ],
+   "logo": "https://i.imgur.com/JHv0WxM.png",
+   "url": "https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8",
+   "source": "amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv"
+  },
+  {
+   "id": "HistoryHit.uk@SD",
+   "name": "History Hit",
+   "country": "GB",
+   "language": "en",
+   "categories": [
+    "documentary"
+   ],
+   "logo": "https://i.imgur.com/ulHoqlP.png",
+   "url": "https://lds-timeline-rakuten.amagi.tv/playlist.m3u8",
+   "source": "lds-timeline-rakuten.amagi.tv"
+  },
+  {
+   "id": "CNAOriginals.sg@SD",
+   "name": "CNA Originals",
+   "country": "SG",
+   "language": "en",
+   "categories": [
+    "documentary"
+   ],
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/500px-CNA_new_logo.svg.png",
+   "url": "https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3u8",
+   "source": "amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv"
+  },
+  {
+   "id": "NHKWorldPremium.jp@SD",
+   "name": "NHK World Premium",
+   "country": "JP",
+   "language": "ja",
+   "categories": [
+    "entertainment"
+   ],
+   "logo": "https://i.imgur.com/4ESi2La.png",
+   "url": "https://media-tyo.hls.nhkworld.jp/hls/wp/live/master.m3u8",
+   "source": "media-tyo.hls.nhkworld.jp"
+  },
+  {
+   "id": "TVBVietnam.vn@SD",
+   "name": "TVB Vietnam",
+   "country": "US",
+   "language": "vi",
+   "categories": [
+    "vietnam",
+    "entertainment"
+   ],
+   "logo": "https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/TVB%20Vietnam.jpeg",
+   "url": "https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbvietnam-tvbanywhereus/playlist.m3u8",
+   "source": "amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv"
+  },
+  {
+   "id": "NBCSportsNOW.us@SD",
+   "name": "NBC Sports NOW",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "international",
+    "sports"
+   ],
+   "logo": "https://i.imgur.com/EzNf2Yx.png",
+   "url": "https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008",
+   "source": "d4whmvwm0rdvi.cloudfront.net"
+  },
+  {
+   "id": "TennisChannel.us@SD",
+   "name": "Tennis Channel",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "international",
+    "sports"
+   ],
+   "logo": "https://i.imgur.com/tsljAnY.png",
+   "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8",
+   "source": "cdn-ue1-prod.tsv2.amagi.tv"
+  },
+  {
+   "id": "NHLNetwork.us@SD",
+   "name": "NHL Network",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "international",
+    "sports"
+   ],
+   "logo": "https://i.imgur.com/UNZ8bef.png",
+   "url": "https://nhl-firetv.amagi.tv/playlist.m3u8",
+   "source": "nhl-firetv.amagi.tv"
+  },
+  {
+   "id": "RedBullTV.at@US",
+   "name": "Red Bull TV US",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "international",
+    "sports"
+   ],
+   "logo": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
+   "url": "https://0b73ace69ebb45eaa249bb87837cb958.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-644-WORBUSENFAST-LG_US/644/lgtv/hls/master/playlist.m3u8",
+   "source": "0b73ace69ebb45eaa249bb87837cb958.mediatailor.us-west-2.amazonaws.com"
+  },
+  {
+   "id": "FIFAPlus.uk@UnitedStates",
+   "name": "FIFA+",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "international",
+    "sports"
+   ],
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png",
+   "url": "https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8",
+   "source": "d2w9q46ikgrcwx.cloudfront.net"
+  },
+  {
+   "id": "OutsideTV.us@SD",
+   "name": "Outside TV",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "international",
+    "sports",
+    "documentary"
+   ],
+   "logo": "https://www.cynopsis.com/wp-content/uploads/2018/02/outside-tv.png",
+   "url": "https://outsidetv-firetv.amagi.tv/playlist.m3u8",
+   "source": "outsidetv-firetv.amagi.tv"
+  },
+  {
+   "id": "Stadium.us@SD",
+   "name": "Stadium",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "international",
+    "sports"
+   ],
+   "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Stadium_%28sports_network%29_logo.svg/960px-Stadium_%28sports_network%29_logo.svg.png",
+   "url": "https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8",
+   "source": "wurl120sports.global.transmit.live"
+  },
+  {
+   "id": "MovieSphere.us@UK",
+   "name": "MovieSphere",
+   "country": "GB",
+   "language": "en",
+   "categories": [
+    "international",
+    "movies"
+   ],
+   "logo": "https://i.imgur.com/h1ejU90.png",
+   "url": "https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8",
+   "source": "moviesphereuk-samsunguk.amagi.tv"
+  },
+  {
+   "id": "RakutenTVTopMovies.es@UK",
+   "name": "Rakuten TV Top Movies UK",
+   "country": "GB",
+   "language": "en",
+   "categories": [
+    "international",
+    "movies"
+   ],
+   "logo": "https://i.imgur.com/Meew6eX.png",
+   "url": "https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8",
+   "source": "0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com"
+  },
+  {
+   "id": "RakutenTVActionMovies.es@UK",
+   "name": "Rakuten TV Action Movies UK",
+   "country": "GB",
+   "language": "en",
+   "categories": [
+    "international",
+    "movies"
+   ],
+   "logo": "https://i.imgur.com/Meew6eX.png",
+   "url": "https://54045f0c40fd442c8b06df076aaf1e85.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6065/master.m3u8",
+   "source": "54045f0c40fd442c8b06df076aaf1e85.mediatailor.eu-west-1.amazonaws.com"
+  },
+  {
+   "id": "RakutenTVComedyMovies.es@UK",
+   "name": "Rakuten TV Comedy Movies UK",
+   "country": "GB",
+   "language": "en",
+   "categories": [
+    "international",
+    "movies"
+   ],
+   "logo": "https://i.imgur.com/Meew6eX.png",
+   "url": "https://9be783d652cd4b099cf63e1dc134c4a3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6181/master.m3u8",
+   "source": "9be783d652cd4b099cf63e1dc134c4a3.mediatailor.eu-west-1.amazonaws.com"
+  },
+  {
+   "id": "RakutenTVFamilyMovies.es@UK",
+   "name": "Rakuten TV Family Movies UK",
+   "country": "GB",
+   "language": "en",
+   "categories": [
+    "international",
+    "movies",
+    "kids"
+   ],
+   "logo": "https://i.imgur.com/Meew6eX.png",
+   "url": "https://e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8",
+   "source": "e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com"
+  },
+  {
+   "id": "DocumentaryPlus.us@US",
+   "name": "Documentary+",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "international",
+    "documentary"
+   ],
+   "logo": "https://i.imgur.com/x57klfS.png",
+   "url": "https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8",
+   "source": "ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com"
+  },
+  {
+   "id": "WildEarth.za@SD",
+   "name": "WildEarth",
+   "country": "ZA",
+   "language": "en",
+   "categories": [
+    "international",
+    "documentary"
+   ],
+   "logo": "https://i.imgur.com/Vhv5gjN.png",
+   "url": "https://dqga3jatxofgx.cloudfront.net/WildEarth.m3u8",
+   "source": "dqga3jatxofgx.cloudfront.net"
+  },
+  {
+   "id": "LoveNature.ca@SD",
+   "name": "Love Nature",
+   "country": "CA",
+   "language": "en",
+   "categories": [
+    "international",
+    "documentary"
+   ],
+   "logo": "https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png",
+   "url": "https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8",
+   "source": "aegis-cloudfront-1.tubi.video"
+  },
+  {
+   "id": "GordonRamsaysHellsKitchen.us@SD",
+   "name": "Hell's Kitchen",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "international",
+    "entertainment"
+   ],
+   "logo": "https://i.imgur.com/WgN4T18.png",
+   "url": "https://aegis-cloudfront-1.tubi.video/c8364f36-c60b-4a39-8d86-0b92db4611c0/index.m3u8",
+   "source": "aegis-cloudfront-1.tubi.video"
+  },
+  {
+   "id": "Tastemade.us@US",
+   "name": "Tastemade",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "international",
+    "entertainment"
+   ],
+   "logo": "https://i.imgur.com/xP7Ehn8.png",
+   "url": "https://rakutenaa-tm-intl-aus-rakuten-eu-n1gtg.amagi.tv/playlist/rakutenAA-tm-intl-aus-rakuten-eu/playlist.m3u8",
+   "source": "rakutenaa-tm-intl-aus-rakuten-eu-n1gtg.amagi.tv"
+  },
+  {
+   "id": "DealorNoDeal.us@SD",
+   "name": "Deal or No Deal",
+   "country": "AU",
+   "language": "en",
+   "categories": [
+    "international",
+    "entertainment"
+   ],
+   "logo": "https://i.imgur.com/lZvNXA1.png",
+   "url": "https://amg00627-banijaygroup-dealornodeal-samsungau-si7xg.amagi.tv/playlist/amg00627-banijaygroup-dealornodeal-samsungau/playlist.m3u8",
+   "source": "amg00627-banijaygroup-dealornodeal-samsungau-si7xg.amagi.tv"
+  },
+  {
+   "id": "WipeoutXtra.us@SD",
+   "name": "Wipeout Xtra",
+   "country": "AU",
+   "language": "en",
+   "categories": [
+    "international",
+    "entertainment"
+   ],
+   "logo": "https://i.imgur.com/UDeCRW1.png",
+   "url": "https://amg00627-banijaygroup-wipeoutxtraau-samsungau-ashbl.amagi.tv/playlist/amg00627-banijaygroup-wipeoutxtraau-samsungau/playlist.m3u8",
+   "source": "amg00627-banijaygroup-wipeoutxtraau-samsungau-ashbl.amagi.tv"
+  },
+  {
+   "id": "NBCComedyVault.us@SD",
+   "name": "NBC Comedy Vault",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "international",
+    "entertainment"
+   ],
+   "logo": "https://i.imgur.com/nydZWwg.png",
+   "url": "https://xumo-xumoent-vc-105-z0vpm.fast.nbcuni.com/live/master.m3u8",
+   "source": "xumo-xumoent-vc-105-z0vpm.fast.nbcuni.com"
+  },
+  {
+   "id": "PBSAntiquesRoadshow.us@SD",
+   "name": "Antiques Roadshow",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "international",
+    "entertainment"
+   ],
+   "logo": "https://i.imgur.com/U9CYaok.png",
+   "url": "https://amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv/playlist.m3u8",
+   "source": "amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv"
+  },
+  {
+   "id": "StingrayHitList.ca@SD",
+   "name": "Stingray Hit List",
+   "country": "CA",
+   "language": "en",
+   "categories": [
+    "international",
+    "music"
+   ],
+   "logo": "https://i.imgur.com/lgpIwId.png",
+   "url": "https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8",
+   "source": "lotus.stingray.com"
+  },
+  {
+   "id": "StingrayEverything80s.ca@SD",
+   "name": "Stingray Everything '80s",
+   "country": "CA",
+   "language": "en",
+   "categories": [
+    "international",
+    "music"
+   ],
+   "logo": "https://i.imgur.com/6E3wYrb.png",
+   "url": "https://lotus.stingray.com/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8",
+   "source": "lotus.stingray.com"
+  },
+  {
+   "id": "StingrayNothinBut90s.ca@SD",
+   "name": "Stingray Nothin' But 90s",
+   "country": "CA",
+   "language": "en",
+   "categories": [
+    "international",
+    "music"
+   ],
+   "logo": "https://i.imgur.com/Tq3I0po.png",
+   "url": "https://lotus.stingray.com/manifest/ose-142ads-montreal/samsungtvplus/master.m3u8",
+   "source": "lotus.stingray.com"
+  },
+  {
+   "id": "StingraySmoothJazz.ca@SD",
+   "name": "Stingray Smooth Jazz",
+   "country": "CA",
+   "language": "en",
+   "categories": [
+    "international",
+    "music"
+   ],
+   "logo": "https://i.imgur.com/h1DsOzH.png",
+   "url": "https://lotus.stingray.com/manifest/ose-140ads-montreal/samsungtvplus/master.m3u8",
+   "source": "lotus.stingray.com"
+  },
+  {
+   "id": "StingrayClassicRock.ca@SD",
+   "name": "Stingray Classic Rock",
+   "country": "CA",
+   "language": "en",
+   "categories": [
+    "international",
+    "music"
+   ],
+   "logo": "https://i.imgur.com/FBgu8yB.png",
+   "url": "https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8",
+   "source": "lotus.stingray.com"
+  },
+  {
+   "id": "StingrayTodaysKPop.ca@SD",
+   "name": "Stingray Today's K-Pop",
+   "country": "CA",
+   "language": "en",
+   "categories": [
+    "international",
+    "music"
+   ],
+   "logo": "https://i.imgur.com/mMbntB5.png",
+   "url": "https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u8",
+   "source": "lotus.stingray.com"
+  },
+  {
+   "id": "StingrayNaturescape.ca@SD",
+   "name": "Stingray Naturescape",
+   "country": "CA",
+   "language": "en",
+   "categories": [
+    "international",
+    "music"
+   ],
+   "logo": "https://i.imgur.com/882kd90.png",
+   "url": "https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8",
+   "source": "lotus.stingray.com"
+  },
+  {
+   "id": "StingrayEasyListening.ca@SD",
+   "name": "Stingray Easy Listening",
+   "country": "CA",
+   "language": "en",
+   "categories": [
+    "international",
+    "music"
+   ],
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stingray_Music_logo.svg/960px-Stingray_Music_logo.svg.png",
+   "url": "https://lotus.stingray.com/manifest/ose-137ads-montreal/samsungtvplus/master.m3u8",
+   "source": "lotus.stingray.com"
+  },
+  {
+   "id": "BabyFirst.us@US",
+   "name": "BabyFirst",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "international",
+    "kids"
+   ],
+   "logo": "https://i.imgur.com/WxLHBwu.png",
+   "url": "https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8",
+   "source": "cdn.fast.jwp.services"
+  },
+  {
+   "id": "PBSKidsPacific.us@SD",
+   "name": "PBS Kids Pacific",
+   "country": "US",
+   "language": "en",
+   "categories": [
+    "international",
+    "kids"
+   ],
+   "logo": "https://i.imgur.com/ambc9le.png",
+   "url": "https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8",
+   "source": "livestream.pbskids.org"
+  }
+ ],
+ "excludeGroups": [
+  "news",
+  "business",
+  "weather",
+  "legislative",
+  "religious",
+  "shop",
+  "general",
+  "undefined",
+  "xxx"
+ ]
+}

@@ -1,0 +1,146 @@
+#EXTM3U
+# Kênh Việt Nam cho mục Việt Nam của DriveTune. Mỗi kênh đều đã thử phát được (tải playlist + segment,
+# User-Agent WebView, không Referer) và xem khung hình thật lúc tạo file; bỏ kênh trùng nội dung, radio,
+# màn hình chờ / NO SIGNAL. Gồm cả luồng phát lại của đài miễn phí (VTV, HTV, THVL); không có kênh trả tiền.
+# Kênh đã kiểm chứng sẵn trong catalog.json (ANTV, QPVN, Hà Nội 1, Cần Thơ, Đồng Nai 1, Đồng Tháp,
+# Thái Nguyên, An Giang 1, Vietnam Today, TVB Vietnam) không lặp lại ở đây.
+#EXTINF:-1 tvg-id="VTV1.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",VTV1
+https://live.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV2.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",VTV2
+https://live.fptplay53.net/live/media/vtv2/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV3.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",VTV3
+https://live.fptplay53.net/live/media/vtv3/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV4.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",VTV4
+https://live.fptplay53.net/live/media/vtv4/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV5.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",VTV5
+https://live.fptplay53.net/live/media/vtv5/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV5TayNamBo.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",VTV5 Tây Nam Bộ
+https://dethich.pw/vtv5tnb/index.m3u8
+#EXTINF:-1 tvg-id="VTV5TayNguyen.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",VTV5 Tây Nguyên
+https://dethich.pw/vtv5tn/index.m3u8
+#EXTINF:-1 tvg-id="VTV6.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",VTV6
+https://live.fptplay53.net/live/media/vtv6/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV7.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",VTV7
+https://live.fptplay53.net/live/media/vtv7/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV8.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",VTV8
+https://dethich.pw/vtv8/index.m3u8
+#EXTINF:-1 tvg-id="VTV9.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",VTV9
+https://live.fptplay53.net/live/media/vtv9/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV10.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",VTV10
+https://live.fptplay53.net/live/media/vtv10/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="HTV1.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",HTV1
+https://dethich.pw/htv1/index.m3u8
+#EXTINF:-1 tvg-id="HTV2.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",HTV2
+https://dethich.pw/htv2/index.m3u8
+#EXTINF:-1 tvg-id="HTV3.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",HTV3
+https://dethich.pw/htv3/index.m3u8
+#EXTINF:-1 tvg-id="HTV4.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",HTV4
+https://dethich.pw/htv4/index.m3u8
+#EXTINF:-1 tvg-id="HTV5.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",HTV5
+https://dethich.pw/htv5/index.m3u8
+#EXTINF:-1 tvg-id="HTV7.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",HTV7
+https://live.fptplay53.net/live/media/htv7/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="HTV9.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",HTV9
+https://live.fptplay53.net/live/media/htv9/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="HTVTheThao.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",HTV Thể Thao
+https://live.fptplay53.net/live/media/htvthethao/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VinhLongTV1.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",Vĩnh Long 1 (THVL1)
+https://live.fptplay53.net/live/media/vinhlong1/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VinhLongTV2.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",Vĩnh Long 2 (THVL2)
+https://live.fptplay53.net/live/media/vinhlong2/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VinhLongTV3.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",Vĩnh Long 3 (THVL3)
+https://live.fptplay53.net/live/media/vinhlong3/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VinhLongTV4.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",Vĩnh Long 4 (THVL4)
+https://dethich.pw/thvl4/index.m3u8
+#EXTINF:-1 tvg-id="VinhLongTV5.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="General",Vĩnh Long 5 (Trà Vinh)
+https://dethich.pw/thvl5/index.m3u8
+#EXTINF:-1 tvg-id="HanoiTV2.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Hà Nội 2
+https://liveh34.vtvprime.vn/hls/HANOI2/index.m3u8
+#EXTINF:-1 tvg-id="HaiPhongTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Hải Phòng
+https://cdn.thhp.vn/live/285a4c99665fdf84e94956c66bc7dc7eb5d/chunklist.m3u8
+#EXTINF:-1 tvg-id="HaiPhongPlus.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Hải Phòng Plus
+https://cdn.thhp.vn/live/28548ca35823d41426d8b3da7ed82bdab13/chunklist.m3u8
+#EXTINF:-1 tvg-id="QuangNinhTV1.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Quảng Ninh 1
+https://live.fptplay53.net/fnxsd1/quangninh1_hls.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="QuangNinhTV3.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Quảng Ninh 3
+https://live.fptplay53.net/fnxsd1/quangninh3_hls.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="BacNinhTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Bắc Ninh
+https://live.mediatech.vn/live/285983d45f5bdab43ebb4cab75573adeda1/playlist.m3u8
+#EXTINF:-1 tvg-id="BacNinhTV2.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Bắc Ninh 2
+https://live.mediatech.vn/live/285acd5e43b501e4c21b0af4e55810625c8/playlist.m3u8
+#EXTINF:-1 tvg-id="HungYenTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Hưng Yên
+https://live.mediatech.vn/live/285f5449d7d7d2946e0bd2d54b7e60f25a4/playlist.m3u8
+#EXTINF:-1 tvg-id="NinhBinhTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Ninh Bình
+https://live.mediatech.vn/live/28597f8fd7ea5064d0f84ab00b3699dfd86/playlist.m3u8
+#EXTINF:-1 tvg-id="PhuThoTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Phú Thọ
+https://liveh34.vtvprime.vn/hls/PHUTHOTV/index.m3u8
+#EXTINF:-1 tvg-id="HoaBinhTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Hòa Bình
+https://live.mediatech.vn/live/2856e81d201c99b4649b5c62f3cddad3881/chunklist.m3u8
+#EXTINF:-1 tvg-id="TuyenQuangTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Tuyên Quang
+https://streaming.tuyenquangtv.vn/channel/tuyenquang/playlist.m3u8
+#EXTINF:-1 tvg-id="HaGiangTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Hà Giang
+https://vtvgolive-ott4.vtvdigital.vn/live/hagiangtv/chunklist_2.m3u8
+#EXTINF:-1 tvg-id="CaoBangTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Cao Bằng
+https://stream.thingnet.vn/live/smil:CRTV.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="LangSonTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Lạng Sơn
+https://stream.langsontv.vn/live/285c78da0c246524c90917842f8de03bd21/playlist.m3u8
+#EXTINF:-1 tvg-id="LaoCaiTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Lào Cai
+https://live.baolaocai.vn/channel2/stream.m3u8?t=0
+#EXTINF:-1 tvg-id="LaiChauTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Lai Châu
+https://live.fptplay53.net/fnxsd1/laichau_hls.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="DienBienTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Điện Biên
+https://live.mediatech.vn/live/2855dfeccb7f49a41a2b0441b3bfeda413c/chunklist.m3u8
+#EXTINF:-1 tvg-id="SonLaTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Sơn La
+https://cdn.sonlatv.vn/live/28595222e707a364251b8724717894baa46/chunklist.m3u8
+#EXTINF:-1 tvg-id="ThanhHoaTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Thanh Hóa
+https://liveh12.vtvprime.vn/hls/THANHHOATV/index.m3u8
+#EXTINF:-1 tvg-id="NgheAnTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Nghệ An
+https://live.truyenhinhnghean.vn/hls/na1/index.m3u8
+#EXTINF:-1 tvg-id="HaTinhTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Hà Tĩnh
+https://cohauw9bgpvod.vcdn.cloud/httv1/index.m3u8
+#EXTINF:-1 tvg-id="QuangTriTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Quảng Trị
+https://live.fptplay53.net/epzsd1/quangtri_hls.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="HueTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Huế
+https://live.fptplay53.net/epzsd1/hue_hls.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="DaNangTV1.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Đà Nẵng 1
+https://live.mediatech.vn/live/285b59a111d76974225a8e3004bfc31a509/chunklist.m3u8
+#EXTINF:-1 tvg-id="DaNangTV2.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Đà Nẵng 2
+https://live.mediatech.vn/live/2859145290d0d7947ef88b6240123b62474/chunklist.m3u8
+#EXTINF:-1 tvg-id="QuangNamTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Quảng Nam
+https://freem3u.xyz/api/live/play.m3u8?vid=80
+#EXTINF:-1 tvg-id="QuangNgaiTV1.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Quảng Ngãi 1
+https://live.mediatech.vn/live/285aaa79b4b265a457d81bb72bc32e2c114/playlist.m3u8
+#EXTINF:-1 tvg-id="QuangNgaiTV2.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Quảng Ngãi 2 (Kon Tum)
+https://dethich.pw/quangngai2/index.m3u8
+#EXTINF:-1 tvg-id="GiaLaiTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Gia Lai
+https://live.fptplay53.net/epzsd1/gialai01_hls.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="DakLakTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Đắk Lắk
+https://cdn.drt.vn/live/285a27750861b964c27af22091662a74f2f/playlist.m3u8
+#EXTINF:-1 tvg-id="KhanhHoaTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Khánh Hòa
+https://cdnbaokhanhhoa.com/live/1332e3a79e27.m3u8?vhost=video
+#EXTINF:-1 tvg-id="NinhThuanTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Khánh Hòa 2 (Ninh Thuận)
+https://cdnbaokhanhhoa.com/live/90405a889081.m3u8?vhost=video
+#EXTINF:-1 tvg-id="LamDongTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Lâm Đồng
+https://live.baolamdong.vn/ltv1/index.m3u8?t=1
+#EXTINF:-1 tvg-id="DakNongTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Lâm Đồng 3 (Đắk Nông)
+https://cloudstreamthdn.tek4tv.vn/live/smil:daknong.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="BinhPhuocTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Bình Phước
+https://vtvgolive-ott3.vtvdigital.vn/live/binhphuoctv/chunklist_2.m3u8
+#EXTINF:-1 tvg-id="DongNaiTV2.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Đồng Nai 2
+https://vtvgolive-ott3.vtvdigital.vn/live/dongnai2tv/chunklist_2.m3u8
+#EXTINF:-1 tvg-id="TayNinhTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Tây Ninh
+https://live.mediatech.vn/live/2851dc2c9af68834814a89e61db0faee561/playlist.m3u8
+#EXTINF:-1 tvg-id="DongThapTV2.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Đồng Tháp 2 (Tiền Giang)
+https://618b88f69e53b.streamlock.net/THDT2/thdttv2/playlist.m3u8
+#EXTINF:-1 tvg-id="AnGiangTV2.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",An Giang 2
+https://tv.angiangtv.vn/live/kgtv2/kgtv2.m3u8
+#EXTINF:-1 tvg-id="AnGiangTV3.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",An Giang 3
+https://tv.angiangtv.vn/live/kgtv1/kgtv1.m3u8
+#EXTINF:-1 tvg-id="CanThoTV2.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Cần Thơ 2
+https://live.canthotv.vn/cs2/live.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="CanThoTV3.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Cần Thơ 3
+https://live.canthotv.vn/cs3/tv/chunklist.m3u8
+#EXTINF:-1 tvg-id="HauGiangTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Hậu Giang
+https://vtvgolive-ott3.vtvdigital.vn/live/haugiangtv/chunklist_2.m3u8
+#EXTINF:-1 tvg-id="CaMauTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Cà Mau
+https://tv.ctvcamau.vn/live/tv/tv.m3u8
