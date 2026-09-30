@@ -1,9 +1,12 @@
 {
- "version": 5,
- "note": "Danh mục Live TV của DriveTune. Sửa file này trên nhánh main là mọi máy tự cập nhật trong 24 giờ, không cần ra bản mới. Chỉ thêm luồng miễn phí, xem được ngay; không thêm luồng cần đăng nhập, DRM hay header giả, không thêm kênh trả tiền. Kênh Việt Nam lấy từ tv/vietnam.m3u (mọi thể loại, kể cả tin tức, kể cả luồng phát lại của đài miễn phí — chỉ giữ kênh đã thử phát được). Chỉ giữ kênh tiếng Anh, tiếng Việt (\"languages\"); mục quốc tế chỉ giải trí, nhạc, khoa học: \"excludeGroups\" bỏ các thể loại tin tức / chính trị / kinh doanh / tôn giáo / bán hàng / đài tổng hợp ở mọi nguồn (trừ nguồn tự khai excludeGroups riêng). Mỗi lần sửa nhớ tăng \"version\": app bỏ qua bản từ xa cũ hơn bản kèm trong app.",
+ "version": 6,
+ "note": "Danh mục Live TV của DriveTune. Sửa file này trên nhánh main là mọi máy tự cập nhật trong 24 giờ, không cần ra bản mới. Chỉ thêm luồng công khai, miễn phí, của chính đài / nhà phân phối; không thêm luồng cần đăng nhập, DRM hay phát lại trái phép. Kênh Việt Nam lấy từ tv/vietnam.m3u (mọi thể loại, chỉ giữ kênh đã thử phát được). Chỉ giữ kênh tiếng Anh, tiếng Việt (\"languages\"); mục quốc tế chỉ giải trí, nhạc, khoa học: \"excludeGroups\" bỏ các thể loại tin tức / chính trị / kinh doanh / tôn giáo / bán hàng / đài tổng hợp ở mọi nguồn (trừ nguồn tự khai excludeGroups riêng). Mỗi lần sửa nhớ tăng \"version\": app bỏ qua bản từ xa cũ hơn bản kèm trong app.",
  "languages": ["en", "vi"],
  "blockedHosts": [
+  "fptplay",
   "sctvdrm",
+  "dethich.pw",
+  "freem3u.xyz",
   "vnns.net",
   "bozztv.com",
   "short.gy",
