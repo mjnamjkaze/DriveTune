@@ -1,7 +1,10 @@
 {
- "version": 6,
- "note": "Danh mục Live TV của DriveTune. Sửa file này trên nhánh main là mọi máy tự cập nhật trong 24 giờ, không cần ra bản mới. Chỉ thêm luồng công khai, miễn phí, của chính đài / nhà phân phối; không thêm luồng cần đăng nhập, DRM hay phát lại trái phép. Kênh Việt Nam lấy từ tv/vietnam.m3u (mọi thể loại, chỉ giữ kênh đã thử phát được). Chỉ giữ kênh tiếng Anh, tiếng Việt (\"languages\"); mục quốc tế chỉ giải trí, nhạc, khoa học: \"excludeGroups\" bỏ các thể loại tin tức / chính trị / kinh doanh / tôn giáo / bán hàng / đài tổng hợp ở mọi nguồn (trừ nguồn tự khai excludeGroups riêng). Mỗi lần sửa nhớ tăng \"version\": app bỏ qua bản từ xa cũ hơn bản kèm trong app.",
- "languages": ["en", "vi"],
+ "version": 7,
+ "note": "Danh mục Live TV của DriveTune. Sửa file này trên nhánh main là mọi máy tự cập nhật trong 24 giờ, không cần ra bản mới. Chỉ thêm luồng công khai, miễn phí, của chính đài / nhà phân phối; không thêm luồng cần đăng nhập, DRM hay phát lại trái phép. Mọi mục lấy từ tv/*.m3u của DriveTune, chỉ gồm kênh đã thử phát được lúc tạo file; kênh Việt Nam gồm mọi thể loại. Chỉ giữ kênh tiếng Anh, tiếng Việt (\"languages\"); mục quốc tế chỉ giải trí, nhạc, khoa học: \"excludeGroups\" bỏ các thể loại tin tức / chính trị / kinh doanh / tôn giáo / bán hàng / đài tổng hợp ở mọi nguồn (trừ nguồn tự khai excludeGroups riêng). Mỗi lần sửa nhớ tăng \"version\": app bỏ qua bản từ xa cũ hơn bản kèm trong app.",
+ "languages": [
+  "en",
+  "vi"
+ ],
  "blockedHosts": [
   "fptplay",
   "sctvdrm",
@@ -10,6 +13,7 @@
   "vnns.net",
   "bozztv.com",
   "short.gy",
+  "sra72yz.s.gy",
   "antik.sk",
   "smartplaytv.in",
   "mcquack.net",
@@ -38,51 +42,45 @@
   },
   {
    "category": "sports",
-   "url": "https://iptv-org.github.io/iptv/categories/sports.m3u",
-   "label": "iptv-org",
-   "limit": 100
+   "url": "https://raw.githubusercontent.com/mjnamjkaze/DriveTune/main/tv/sports.m3u",
+   "label": "iptv-org (DriveTune đã thử phát)",
+   "limit": 300
   },
   {
    "category": "movies",
-   "url": "https://iptv-org.github.io/iptv/categories/movies.m3u",
-   "label": "iptv-org",
-   "limit": 100
+   "url": "https://raw.githubusercontent.com/mjnamjkaze/DriveTune/main/tv/movies.m3u",
+   "label": "iptv-org (DriveTune đã thử phát)",
+   "limit": 300
   },
   {
    "category": "kids",
-   "url": "https://iptv-org.github.io/iptv/categories/kids.m3u",
-   "label": "iptv-org",
-   "limit": 100
+   "url": "https://raw.githubusercontent.com/mjnamjkaze/DriveTune/main/tv/kids.m3u",
+   "label": "iptv-org (DriveTune đã thử phát)",
+   "limit": 300
   },
   {
    "category": "music",
-   "url": "https://iptv-org.github.io/iptv/categories/music.m3u",
-   "label": "iptv-org",
-   "limit": 100
+   "url": "https://raw.githubusercontent.com/mjnamjkaze/DriveTune/main/tv/music.m3u",
+   "label": "iptv-org (DriveTune đã thử phát)",
+   "limit": 300
   },
   {
    "category": "documentary",
-   "url": "https://iptv-org.github.io/iptv/categories/documentary.m3u",
-   "label": "iptv-org",
-   "limit": 100
+   "url": "https://raw.githubusercontent.com/mjnamjkaze/DriveTune/main/tv/documentary.m3u",
+   "label": "iptv-org (DriveTune đã thử phát)",
+   "limit": 300
   },
   {
    "category": "entertainment",
-   "url": "https://iptv-org.github.io/iptv/categories/entertainment.m3u",
-   "label": "iptv-org",
-   "limit": 100
+   "url": "https://raw.githubusercontent.com/mjnamjkaze/DriveTune/main/tv/entertainment.m3u",
+   "label": "iptv-org (DriveTune đã thử phát)",
+   "limit": 300
   },
   {
    "category": "international",
    "url": "https://raw.githubusercontent.com/mjnamjkaze/DriveTune/main/tv/english.m3u",
    "label": "iptv-org (tiếng Anh, DriveTune đã thử phát)",
-   "limit": 300
-  },
-  {
-   "category": "documentary",
-   "url": "https://iptv-org.github.io/iptv/categories/science.m3u",
-   "label": "iptv-org",
-   "limit": 100
+   "limit": 500
   }
  ],
  "epg": [

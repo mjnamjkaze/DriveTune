@@ -30,8 +30,6 @@ https://vtvgolive-ott4.vtvdigital.vn/live/hagiangtv/chunklist_2.m3u8
 https://stream.thingnet.vn/live/smil:CRTV.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="LangSonTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Lạng Sơn
 https://stream.langsontv.vn/live/285c78da0c246524c90917842f8de03bd21/playlist.m3u8
-#EXTINF:-1 tvg-id="LaoCaiTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Lào Cai
-https://live.baolaocai.vn/channel2/stream.m3u8?t=0
 #EXTINF:-1 tvg-id="DienBienTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Điện Biên
 https://live.mediatech.vn/live/2855dfeccb7f49a41a2b0441b3bfeda413c/chunklist.m3u8
 #EXTINF:-1 tvg-id="SonLaTV.vn" tvg-country="VN" tvg-language="Vietnamese" group-title="Regional",Sơn La
