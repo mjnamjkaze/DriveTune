@@ -1,6 +1,6 @@
 # DriveTune — Nghe nhạc YouTube và xem TV trực tiếp trên Android Auto (miễn phí, phát nền, chặn quảng cáo)
 
-**DriveTune** là app Android miễn phí để **nghe nhạc YouTube trên màn hình ô tô qua Android Auto**, kể cả **khi xe đang chạy**. Chọn bài bằng nút to trên màn hình xe hoặc **ra lệnh bằng giọng nói** ("Hey Google, phát Sơn Tùng trên DriveTune"). App **phát nền khi tắt màn hình**, **chặn quảng cáo**, tự bỏ qua đoạn tài trợ (SponsorBlock), và có sẵn danh sách **nhạc trẻ, nhạc Việt, nhạc Trung (Hoa ngữ), K-Pop, Âu Mỹ, Bolero, Remix, nhạc không lời, thiếu nhi**, cùng mục nghe **khoa học, lịch sử, sách nói, podcast, học tiếng Anh**. Có **Truyền hình trực tiếp (Live TV)** miễn phí, công khai: kênh Việt Nam, tin tức tiếng Anh nổi tiếng và kênh khoa học.
+**DriveTune** là app Android miễn phí để **nghe nhạc YouTube trên màn hình ô tô qua Android Auto**, kể cả **khi xe đang chạy**. Chọn bài bằng nút to trên màn hình xe hoặc **ra lệnh bằng giọng nói** ("Hey Google, phát Sơn Tùng trên DriveTune"). App **phát nền khi tắt màn hình**, **chặn quảng cáo**, tự bỏ qua đoạn tài trợ (SponsorBlock), và có sẵn danh sách **nhạc trẻ, nhạc Việt, nhạc Trung (Hoa ngữ), K-Pop, Âu Mỹ, Remix, nhạc không lời, thiếu nhi**, cùng mục nghe **khoa học, lịch sử, sách nói, podcast, học tiếng Anh**. Có **Truyền hình trực tiếp (Live TV)** miễn phí, công khai: kênh Việt Nam, tin tức tiếng Anh nổi tiếng và kênh khoa học.
 
 <p align="center">
   <a href="https://github.com/mjnamjkaze/DriveTune/releases/latest"><b>⬇️ Tải DriveTune APK bản mới nhất</b></a>
@@ -353,7 +353,7 @@ Mỗi mục chỉ là **dấu trang do người dùng tạo ra trong lúc dùng 
 | Nhóm | Danh sách |
 |---|---|
 | Lái xe | Yêu thích · Sáng sớm · Đêm khuya · Đường dài · Trong phố · Thư giãn · Sôi động · Rock · Disco |
-| Thể loại | Nhạc Việt · Nhạc trẻ · Nhạc Trung (Hoa ngữ) · Nhạc Hàn (K-Pop) · Âu Mỹ (English) · Bolero – Trữ tình · Rap Việt · Remix – EDM · Acoustic · Nhạc Trịnh · Không lời – Piano · Jazz · Lofi · Thiếu nhi |
+| Thể loại | Nhạc Việt · Nhạc trẻ · Nhạc Trung (Hoa ngữ) · Nhạc Hàn (K-Pop) · Âu Mỹ (English) · Rap Việt · Remix – EDM · Acoustic · Nhạc Trịnh · Không lời – Piano · Lofi · Thiếu nhi |
 | Nghe & học | Khoa học · Lịch sử · Sách nói · Truyện audio · Podcast · Học tiếng Anh |
 
 Đây **không phải** một hệ thống playlist riêng — mỗi mục chỉ là một từ khoá tìm kiếm đi qua đúng luồng tìm kiếm sẵn có, còn "Yêu thích" thì đọc từ `DriveLibrary`. Thêm/bớt một danh sách chỉ là sửa bảng `ALL` trong [DrivePlaylists.kt](app/src/main/java/com/gsvn/aamusic/data/DrivePlaylists.kt).
