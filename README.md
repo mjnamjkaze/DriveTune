@@ -1,16 +1,16 @@
-# Vibo — Nghe nhạc YouTube và xem TV trực tiếp trên Android Auto (miễn phí, phát nền, chặn quảng cáo)
+# DriveTune — Nghe nhạc YouTube và xem TV trực tiếp trên Android Auto (miễn phí, phát nền, chặn quảng cáo)
 
-**Vibo** (tên cũ: DriveTune) là app Android miễn phí để **nghe nhạc YouTube trên màn hình ô tô qua Android Auto**, kể cả **khi xe đang chạy**. Chọn bài bằng nút to trên màn hình xe hoặc **ra lệnh bằng giọng nói** ("Hey Google, phát Sơn Tùng trên Vibo"). App **phát nền khi tắt màn hình**, **chặn quảng cáo**, tự bỏ qua đoạn tài trợ (SponsorBlock), và có sẵn danh sách **nhạc trẻ, nhạc Việt, nhạc Trung (Hoa ngữ), K-Pop, Âu Mỹ, Remix, nhạc không lời, thiếu nhi**, cùng mục nghe **khoa học, lịch sử, sách nói, podcast, học tiếng Anh**. Có **Truyền hình trực tiếp (Live TV)** miễn phí, công khai: kênh Việt Nam, tin tức tiếng Anh nổi tiếng và kênh khoa học.
+**DriveTune** là app Android miễn phí để **nghe nhạc YouTube trên màn hình ô tô qua Android Auto**, kể cả **khi xe đang chạy**. Chọn bài bằng nút to trên màn hình xe hoặc **ra lệnh bằng giọng nói** ("Hey Google, phát Sơn Tùng trên DriveTune"). App **phát nền khi tắt màn hình**, **chặn quảng cáo**, tự bỏ qua đoạn tài trợ (SponsorBlock), và có sẵn danh sách **nhạc trẻ, nhạc Việt, nhạc Trung (Hoa ngữ), K-Pop, Âu Mỹ, Remix, nhạc không lời, thiếu nhi**, cùng mục nghe **khoa học, lịch sử, sách nói, podcast, học tiếng Anh**. Có **Truyền hình trực tiếp (Live TV)** miễn phí, công khai: kênh Việt Nam, tin tức tiếng Anh nổi tiếng và kênh khoa học.
 
 <p align="center">
-  <a href="https://github.com/mjnamjkaze/DriveTune/releases/latest"><b>⬇️ Tải Vibo APK bản mới nhất</b></a>
+  <a href="https://github.com/mjnamjkaze/DriveTune/releases/latest"><b>⬇️ Tải DriveTune APK bản mới nhất</b></a>
 </p>
 
-> 📺 **Mới: TiviNhà** — app riêng cho **Android TV / Google TV** (đã làm cho TCL 65P7K): xem YouTube **không quảng cáo** bằng điều khiển, **tìm bằng giọng nói**, từ khoá nhanh một chạm, ưu tiên **khoa học cho bé · thế giới động vật · khám phá thế giới · vũ trụ · đại dương**, rồi học tập, nhạc thiếu nhi, hoạt hình để cuối (Peppa Pig, Bluey, Doraemon…); **tự lọc bỏ video bạo lực, kinh dị**, kết quả kéo mãi không hết; kèm truyền hình trực tiếp **VTV1–VTV10, đài địa phương (VTV Go)**, tin tức, khoa học, phim. Tải file **Vibo-TV-x.y.z.apk** ở cùng trang Releases.
+> 📺 **Mới: TiviNhà** — app riêng cho **Android TV / Google TV** (đã làm cho TCL 65P7K): xem YouTube **không quảng cáo** bằng điều khiển, **tìm bằng giọng nói**, từ khoá nhanh một chạm, ưu tiên **khoa học cho bé · thế giới động vật · khám phá thế giới · vũ trụ · đại dương**, rồi học tập, nhạc thiếu nhi, hoạt hình để cuối (Peppa Pig, Bluey, Doraemon…); **tự lọc bỏ video bạo lực, kinh dị**, kết quả kéo mãi không hết; kèm truyền hình trực tiếp **VTV1–VTV10, đài địa phương (VTV Go)**, tin tức, khoa học, phim. Tải file **TiviNha-x.y.z.apk** ở cùng trang Releases.
 
 - ✅ **Android Auto khi xe đang chạy**: dùng giao diện media chuẩn của Android Auto (Yêu thích · Danh sách · Vừa nghe · Truyền hình · Tìm kiếm), chạm một lần là phát.
 - 📺 **Live TV — truyền hình trực tiếp miễn phí**: **Việt Nam** (có **VTV1–VTV10, Vietnam Today và 37 đài địa phương** qua VTV Go chính chủ), **Tin tức** tiếng Anh nổi tiếng (Al Jazeera, France 24, DW, NHK World, CNA, NBC News NOW, Bloomberg, CNBC, Reuters…), **Khoa học** (BBC Earth, NatureTime, WildEarth, History Hit…) và **Của bạn** (tự dán link danh sách M3U). Bấm **Dò kênh** là app tự tải lại danh sách, thử từng kênh: kênh xem được lên đầu, kênh chết xuống cuối. Tìm kênh, **kênh yêu thích**, nút vô lăng để **chuyển kênh**, hiện **chương trình đang chiếu / kế tiếp** khi có lịch.
-- 🗣️ **"Hey Google, phát … trên Vibo"**: Trợ lý Google tìm và phát ngay, xếp các bài sau vào hàng chờ.
+- 🗣️ **"Hey Google, phát … trên DriveTune"**: Trợ lý Google tìm và phát ngay, xếp các bài sau vào hàng chờ.
 - ⏭️ **Nút vô lăng đi theo hàng chờ**: hết hàng chờ thì tự phát các bài liên quan (cùng thể loại); hàng chờ tự dài thêm, nghe không hụt.
 - 🚗 **Cắm vào xe là vào Chế độ lái và phát tiếp**; ảnh nền tự tối đi ban đêm cho khỏi chói.
 - 🎬 **Bật/tắt video**: bật để xem video như YouTube; tắt để chỉ nghe, màn hình hiện **ảnh nền dịu mắt** thay cho ảnh bìa, lại đỡ tốn 3G/4G.
@@ -20,7 +20,7 @@
 - 🔇 **Không quảng cáo**: chặn từ gốc, bài vào luôn không phải chờ.
 - 📱 **Phát nền, tắt màn hình vẫn nghe**, có bong bóng nổi để điều khiển trên Google Maps.
 - 🚗 **Chế độ lái**: nút to, nền tối, chỉ ảnh nền + tên bài (không bao giờ có hình video / TV), nút ♥ lưu bài đang phát, nút ⏻ **tắt app** một chạm, nút vô lăng chuyển bài được.
-- ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì Vibo tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
+- ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì DriveTune tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
 - 🧭 **Mở app là thấy ngay menu**: Tìm · Hàng chờ · Yêu thích · Vừa nghe · Danh sách · TV, đều là icon vừa một hàng, không phải trượt ngang.
 
 > Từ khoá: xem tv trên android auto, live tv android auto, xem truyền hình trực tiếp trên ô tô, nghe nhạc youtube trên android auto, youtube android auto, app nghe nhạc ô tô, nghe nhạc khi lái xe, youtube phát nền, youtube không quảng cáo, nhạc cho xe hơi, android auto music app, youtube music android auto apk.
@@ -28,8 +28,8 @@
 ## Cài đặt nhanh (3 bước)
 
 1. **Tải APK** ở trang [Releases](https://github.com/mjnamjkaze/DriveTune/releases/latest) rồi cài lên điện thoại (Android 15 trở lên). Khi máy hỏi thì cho phép *cài từ nguồn không xác định*.
-2. Mở Vibo một lần trên điện thoại và cấp các quyền **Thông báo** và **Hiển thị trên ứng dụng khác** (cho bong bóng nổi).
-3. Trong app **Android Auto** trên điện thoại, bấm ~10 lần vào dòng *Phiên bản* để bật chế độ nhà phát triển. Sau đó vào **⋮ → Developer settings** và bật **Unknown sources**. Cắm điện thoại vào xe là thấy icon Vibo. Chi tiết xem [Sideload lên Android Auto](#sideload-lên-android-auto-từng-bước).
+2. Mở DriveTune một lần trên điện thoại và cấp các quyền **Thông báo** và **Hiển thị trên ứng dụng khác** (cho bong bóng nổi).
+3. Trong app **Android Auto** trên điện thoại, bấm ~10 lần vào dòng *Phiên bản* để bật chế độ nhà phát triển. Sau đó vào **⋮ → Developer settings** và bật **Unknown sources**. Cắm điện thoại vào xe là thấy icon DriveTune. Chi tiết xem [Sideload lên Android Auto](#sideload-lên-android-auto-từng-bước).
 
 ## Hỏi đáp
 
@@ -41,7 +41,7 @@ Lỗi này có ở bản 2.3.0 và đã sửa ở **2.4.0**. "Đang tải dữ l
 
 Từ 2.4.0, app phát được **mà không cần mở trên điện thoại**. Có lỗi thì xe hiện thông báo rõ ràng thay vì chờ mãi.
 
-**Xe đang chạy có phát nhạc được không?** Được. Khi xe chạy, Android Auto chỉ cho dùng giao diện media chuẩn và khoá bàn phím. Giao diện này Vibo hỗ trợ đầy đủ: chạm để chọn bài, bấm 🎙️ để tìm bằng giọng nói.
+**Xe đang chạy có phát nhạc được không?** Được. Khi xe chạy, Android Auto chỉ cho dùng giao diện media chuẩn và khoá bàn phím. Giao diện này DriveTune hỗ trợ đầy đủ: chạm để chọn bài, bấm 🎙️ để tìm bằng giọng nói.
 
 **Nói xong mà không tìm gì?** Đã sửa ở 2.4.0: câu nói được nhận ngay trong app, không qua hộp thoại riêng (hộp thoại này hay không hiện được trên màn hình xe), rồi phát bài đầu tiên luôn.
 
@@ -51,17 +51,17 @@ Từ 2.4.0, app phát được **mà không cần mở trên điện thoại**. 
 
 **Bấm next trên vô lăng thì phát bài nào?** Bài kế trong hàng chờ. Hết hàng chờ thì app tải thêm theo lần tìm / danh sách đang phát; không còn nữa thì phát **các bài liên quan tới bài đang nghe** (thường cùng thể loại, ca sĩ). Nút prev: đã nghe quá 5 giây thì về đầu bài, bấm tiếp thì về bài trước.
 
-**Cập nhật bản mới thế nào?** Có bản mới trên GitHub thì lúc mở app sẽ có một dòng thông báo. Vào Cài đặt → **Cập nhật lên bản …** (cuối bảng Cài đặt), app tự tải rồi mở màn cài đặt. Lần đầu Android sẽ hỏi cho phép Vibo cài ứng dụng, bấm cho phép.
+**Cập nhật bản mới thế nào?** Có bản mới trên GitHub thì lúc mở app sẽ có một dòng thông báo. Vào Cài đặt → **Cập nhật lên bản …** (cuối bảng Cài đặt), app tự tải rồi mở màn cài đặt. Lần đầu Android sẽ hỏi cho phép DriveTune cài ứng dụng, bấm cho phép.
 
 **Xem TV trực tiếp thế nào?** Trên điện thoại: nút **thư viện** → mục **TV** → chạm một mục (Việt Nam, Âm nhạc…) rồi chạm kênh. Bấm ♥ để lưu vào **Kênh yêu thích**. Trên Android Auto: mục **Truyền hình**. Nút next/prev (vô lăng, Chế độ lái) chuyển sang kênh kế / trước trong danh sách đang xem. Trên màn hình xe, giao diện media của Android Auto và Chế độ lái chỉ hiện tên kênh, logo và nút to — **nghe tiếng như radio**, không chiếu hình khi đang lái. Tắt *Hiện video* thì trên điện thoại cũng chỉ hiện logo kênh.
 
-**Kênh TV lấy từ đâu, có hợp pháp không?** Vibo chỉ phát **luồng công khai, miễn phí** từ máy chủ của chính đài / nhà phân phối: **VTV1–VTV10 và đài địa phương lấy từ VTV Go** (luồng miễn phí, không cần đăng nhập, app xin địa chỉ mới mỗi lần mở kênh như trang vtvgo.vn), kênh Việt Nam đã kiểm tra thủ công (ANTV, QPVN, Hà Nội 1, Cần Thơ, Đồng Nai…), cộng kênh tin tức / khoa học tiếng Anh chọn từ danh sách cộng đồng [iptv-org](https://github.com/iptv-org/iptv) — mỗi kênh đều đã thử phát được, bỏ luồng cần đăng nhập / DRM / header giả, máy chủ IP trần và nguồn phát lại trái phép. Kênh trả tiền (HBO, Cinemax, AXN, gói VTVcab / SCTV…) không có. Mỗi kênh ghi rõ **nguồn** (tên máy chủ). Danh sách kênh cập nhật từ xa, không cần tải bản mới.
+**Kênh TV lấy từ đâu, có hợp pháp không?** DriveTune chỉ phát **luồng công khai, miễn phí** từ máy chủ của chính đài / nhà phân phối: **VTV1–VTV10 và đài địa phương lấy từ VTV Go** (luồng miễn phí, không cần đăng nhập, app xin địa chỉ mới mỗi lần mở kênh như trang vtvgo.vn), kênh Việt Nam đã kiểm tra thủ công (ANTV, QPVN, Hà Nội 1, Cần Thơ, Đồng Nai…), cộng kênh tin tức / khoa học tiếng Anh chọn từ danh sách cộng đồng [iptv-org](https://github.com/iptv-org/iptv) — mỗi kênh đều đã thử phát được, bỏ luồng cần đăng nhập / DRM / header giả, máy chủ IP trần và nguồn phát lại trái phép. Kênh trả tiền (HBO, Cinemax, AXN, gói VTVcab / SCTV…) không có. Mỗi kênh ghi rõ **nguồn** (tên máy chủ). Danh sách kênh cập nhật từ xa, không cần tải bản mới.
 
 **Mục "Của bạn" là gì?** Chỗ để bạn tự dán link danh sách kênh **M3U / M3U8** của mình (app không kèm nguồn nào cho mục này). Chạm **Thêm danh sách kênh** → dán link (link vừa sao chép được điền sẵn) → **Thêm**. App tự tải, tự dò từng kênh; danh sách tải lại hỏng thì giữ bản cũ. Bấm **Dò kênh** bất cứ lúc nào để tải lại và dò lại. Nhấn giữ một kênh để thử lại riêng kênh đó; tắt *Xếp kênh xem được lên đầu* để về thứ tự gốc.
 
 **Kênh báo "không xem được"?** App đã tự thử lại vài lần. Kênh nguồn có thể đang ngừng phát, hoặc chỉ xem được ở nước sở tại. Mỗi kênh ghi rõ tình trạng lần dò gần nhất: **✓ Xem được**, **✕ Không xem được** (kèm lý do: bị chặn 403, không còn 404, lỗi TLS, có DRM…) hay **? Chưa rõ** (máy chủ bận 429/5xx, hết thời gian chờ). Kênh không xem được **xuống cuối danh sách**, không bị xoá; kết quả dò giữ 12 giờ, quá hạn thì mở mục là app tự dò lại.
 
-**TiviNhà dùng thế nào trên TV?** Cài file **Vibo-TV-x.y.z.apk** (chép qua USB, hoặc dùng app *Downloader* / *Send Files to TV*), mở từ màn hình chính của TV. Hàng trên: **YouTube** · **Truyền hình** · ô tìm · 🎤. Tìm bằng giọng nói: bấm 🎤 trong app, nút micro / tìm kiếm trên điều khiển, hay nói với Trợ lý Google "*tìm … trên TiviNhà*"; micro trên bàn phím của TV cũng gõ được vào ô tìm. Xem video: **OK** dừng / phát, **◀ ▶** tua 10 giây, **▲ ▼** video trước / sau, hết video tự sang video kế. Xem kênh: **▲ ▼** đổi kênh. Mục Truyền hình có nút **Dò kênh** và mục **Của bạn** giống trên điện thoại.
+**TiviNhà dùng thế nào trên TV?** Cài file **TiviNha-x.y.z.apk** (chép qua USB, hoặc dùng app *Downloader* / *Send Files to TV*), mở từ màn hình chính của TV. Hàng trên: **YouTube** · **Truyền hình** · ô tìm · 🎤. Tìm bằng giọng nói: bấm 🎤 trong app, nút micro / tìm kiếm trên điều khiển, hay nói với Trợ lý Google "*tìm … trên TiviNhà*"; micro trên bàn phím của TV cũng gõ được vào ô tìm. Xem video: **OK** dừng / phát, **◀ ▶** tua 10 giây, **▲ ▼** video trước / sau, hết video tự sang video kế. Xem kênh: **▲ ▼** đổi kênh. Mục Truyền hình có nút **Dò kênh** và mục **Của bạn** giống trên điện thoại.
 
 **Ở Chế độ lái, mở menu thì danh sách bé quá?** Từ 2.11.0, menu ở Chế độ lái và trên màn hình xe mở **toàn màn hình** (ảnh nền tự ẩn, đóng menu là hiện lại). Đầu menu có dòng **Đang phát: …** — chạm để quay lại màn phát, bấm **✕** để dừng và xoá bài/kênh đang phát. Ô tìm có nút **✕** để xoá chữ và kết quả tìm.
 
@@ -278,7 +278,7 @@ Từ 2.9.0 app **không tự nghe giọng nói nữa** (không còn nút mic, kh
 
 | Chỗ | Đi qua |
 |---|---|
-| "Hey Google, phát … trên Vibo" | `onPlayFromSearch` của phiên media |
+| "Hey Google, phát … trên DriveTune" | `onPlayFromSearch` của phiên media |
 | 🎙️ trong **giao diện media của Android Auto** | `onSearch` / `onPlayFromSearch` |
 
 Câu nói vào [CarPlayback.playQuery](app/src/main/java/com/gsvn/aamusic/car/CarPlayback.kt): [VoiceCommands](app/src/main/java/com/gsvn/aamusic/voice/VoiceCommands.kt) hiểu lệnh ("bài tiếp", "tạm dừng", "mở nhạc rock"…), còn lại thì tìm và phát bài đầu, các bài sau vào hàng chờ.
@@ -442,7 +442,7 @@ Khi xe chạy, Android Auto chỉ cho dùng **giao diện media chuẩn**: hệ 
 Các chi tiết khác:
 - **WebView ngầm không gắn vào cửa sổ nào**, và đây là cố ý. Chromium coi WebView *chưa từng* gắn vào cửa sổ là đang hiển thị (`BrowserViewRenderer::IsClientVisible = !was_attached_ || (attached && window_visible)`), nên trình phát chạy bình thường. Nếu gắn vào overlay rồi gỡ ra thì nó bị coi là ẩn và video bị dừng.
 - **Foreground service** được mở ngay khi nhận lệnh từ xe, *trước* bước tìm kiếm qua mạng. Hệ thống chỉ cho mở trong khoảng 10 giây sau lệnh (`MediaSessionService.tempAllowlistTargetPkgIfPossible`).
-- **Tìm kiếm**: root trả extras `android.media.browse.SEARCH_SUPPORTED = true`. `onSearch` dùng `result.detach()` rồi trả kết quả trong máy trước, kết quả YouTube sau. `onPlayFromSearch` phục vụ "Hey Google, phát … trên Vibo".
+- **Tìm kiếm**: root trả extras `android.media.browse.SEARCH_SUPPORTED = true`. `onSearch` dùng `result.detach()` rồi trả kết quả trong máy trước, kết quả YouTube sau. `onPlayFromSearch` phục vụ "Hey Google, phát … trên DriveTune".
 - **Ảnh bìa** đi qua [ArtworkProvider](app/src/main/java/com/gsvn/aamusic/player/ArtworkProvider.kt) dạng `content://`, vì Android Auto không tải ảnh `https://`.
 - **Nút play** khi chưa có bài nào mở: nghe tiếp chỗ lần trước, không có thì mở danh sách mặc định, không có nữa thì bài vừa nghe gần nhất.
 - **Bài kế** đi theo hàng chờ của app (Yêu thích, danh sách, kết quả tìm) trước, hàng chờ rỗng mới để YouTube tự chọn.
@@ -454,10 +454,10 @@ Các chi tiết khác:
 > Cần: điện thoại Android, cáp USB (hoặc Android Auto không dây), xe/màn hình head unit hỗ trợ Android Auto. Chỉ dùng cho mục đích cá nhân/thử nghiệm.
 
 ### Bước 1 — Cài APK vào điện thoại
-- Tải `Vibo-<version>.apk` ở trang [Releases](https://github.com/mjnamjkaze/DriveTune/releases/latest), copy vào máy và cài (cho phép "Cài từ nguồn không xác định" khi được hỏi), **hoặc**
+- Tải `DriveTune-<version>.apk` ở trang [Releases](https://github.com/mjnamjkaze/DriveTune/releases/latest), copy vào máy và cài (cho phép "Cài từ nguồn không xác định" khi được hỏi), **hoặc**
 - Cài qua ADB:
   ```bash
-  adb install -r Vibo-2.9.0.apk
+  adb install -r DriveTune-2.9.0.apk
   ```
 
 ### Bước 2 — Bật Developer mode trong app Android Auto
@@ -472,7 +472,7 @@ Các chi tiết khác:
 ### Bước 4 — Kết nối và mở app
 1. Cắm điện thoại vào xe (hoặc kết nối AA không dây).
 2. Trên màn hình xe, mở **app drawer** (biểu tượng lưới các ứng dụng).
-3. Icon **Vibo** sẽ xuất hiện (nhờ các intent-filter ở trên). Bấm để mở.
+3. Icon **DriveTune** sẽ xuất hiện (nhờ các intent-filter ở trên). Bấm để mở.
 
 ### Bước 5 — Nếu không thấy icon
 - Kiểm tra đã bật **Unknown sources** (Bước 3) chưa — đây là lỗi hay gặp nhất.
@@ -497,7 +497,7 @@ Các chi tiết khác:
 ./gradlew assembleRelease
 ```
 
-APK sau khi build được tự động đổi tên `Vibo-<version>[_debug].apk` và copy về thư mục gốc dự án (xem `RenameApkTask` trong [app/build.gradle.kts](app/build.gradle.kts#L118)).
+APK sau khi build được tự động đổi tên `DriveTune-<version>[_debug].apk` và copy về thư mục gốc dự án (xem `RenameApkTask` trong [app/build.gradle.kts](app/build.gradle.kts#L118)).
 
 **Quyền cần cấp lần đầu khi chạy:**
 - **Hiển thị trên ứng dụng khác** (SYSTEM_ALERT_WINDOW) — cho bong bóng nổi.
