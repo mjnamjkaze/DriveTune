@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "title": "Truyện nổi tiếng thế giới",
+  "categories": [
+    {
+      "id": "co-tich",
+      "title": "Truyện cổ tích thế giới",
+      "stories": [
+        { "id": "co-be-quang-khan-do", "title": "Cô bé quàng khăn đỏ", "origin": "Anh em Grimm, Đức" }
+      ]
+    },
+    {
+      "id": "ngu-ngon",
+      "title": "Ngụ ngôn và truyện giáo dục",
+      "stories": [
+        { "id": "rua-va-tho", "title": "Rùa và thỏ", "origin": "Aesop, Hy Lạp" }
+      ]
+    },
+    {
+      "id": "than-thoai",
+      "title": "Truyện phiêu lưu và thần thoại",
+      "stories": [
+        { "id": "prometheus-dem-lua", "title": "Prô-mê-tê đem lửa cho loài người", "origin": "Thần thoại Hy Lạp" }
+      ]
+    },
+    {
+      "id": "kinh-dien",
+      "title": "Văn học kinh điển",
+      "stories": [
+        { "id": "robinson-crusoe", "title": "Rô-bin-xơn Cru-xô", "origin": "Đa-ni-en Đi-phô, Anh" }
+      ]
+    }
+  ]
+}
