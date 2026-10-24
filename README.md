@@ -6,7 +6,7 @@
   <a href="https://github.com/mjnamjkaze/DriveTune/releases/latest"><b>⬇️ Tải DriveTune APK bản mới nhất</b></a>
 </p>
 
-> 📺 **TiviNhà** — app riêng cho **Android TV / Google TV**: xem YouTube không quảng cáo bằng điều khiển, tìm bằng giọng nói, kèm truyền hình trực tiếp. Thư viện video phát trực tiếp tệp từ bộ nhớ trong hoặc USB được người dùng cấp quyền qua bộ chọn thư mục Android; hỗ trợ phụ đề nhúng và phụ đề rời SRT/ASS/SSA/VTT, chọn audio track, ưu tiên giải mã phần cứng bằng Media3 và hiển thị định dạng/track mà thiết bị nhận diện. Codec âm thanh/hình ảnh thực phát được phụ thuộc decoder của TV; DTS/TrueHD không được đảm bảo nếu thiết bị không hỗ trợ. Tải file **TiviNha-x.y.z.apk** ở cùng trang Releases.
+> 📺 **TiviNhà** — app riêng cho **Android TV / Google TV**: xem YouTube không quảng cáo bằng điều khiển, tìm bằng giọng nói, kèm truyền hình trực tiếp. Thư viện video có thể yêu cầu quyền Video của Android để liệt kê tệp đã lập chỉ mục trên bộ nhớ/USB; cũng có thể cấp quyền chọn thư mục qua SAF. Nếu firmware không có trình chọn thư mục, vẫn có thể duyệt video đã lập chỉ mục; nếu không có cả trình chọn tệp và SAF, cần bật/cập nhật ứng dụng Files của hệ thống hoặc firmware TV. Hỗ trợ phụ đề nhúng và phụ đề rời SRT/ASS/SSA/VTT, chọn audio track, ưu tiên giải mã phần cứng bằng Media3 và hiển thị định dạng/track mà thiết bị nhận diện. Codec thực phát được phụ thuộc decoder của TV; DTS/TrueHD không được đảm bảo nếu thiết bị không hỗ trợ. Tải file **TiviNha-x.y.z.apk** ở cùng trang Releases.
 
 **Đã bỏ tính năng đọc truyện** khỏi DriveTune (điện thoại/Android Auto) và TiviNhà.
 
