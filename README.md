@@ -6,7 +6,9 @@
   <a href="https://github.com/mjnamjkaze/DriveTune/releases/latest"><b>⬇️ Tải DriveTune APK bản mới nhất</b></a>
 </p>
 
-> 📺 **TiviNhà** — app riêng cho **Android TV / Google TV**: xem YouTube không quảng cáo bằng điều khiển, tìm bằng giọng nói, kèm truyền hình trực tiếp. Bản mới có thư viện video cục bộ và phát trực tiếp tệp từ bộ nhớ trong hoặc USB được người dùng cấp quyền qua bộ chọn thư mục Android; dùng Media3, ưu tiên giải mã phần cứng và hiển thị định dạng thực tế mà thiết bị nhận diện. Tải file **TiviNha-x.y.z.apk** ở cùng trang Releases.
+> 📺 **TiviNhà** — app riêng cho **Android TV / Google TV**: xem YouTube không quảng cáo bằng điều khiển, tìm bằng giọng nói, kèm truyền hình trực tiếp. Thư viện video phát trực tiếp tệp từ bộ nhớ trong hoặc USB được người dùng cấp quyền qua bộ chọn thư mục Android; hỗ trợ phụ đề nhúng và phụ đề rời SRT/ASS/SSA/VTT, chọn audio track, ưu tiên giải mã phần cứng bằng Media3 và hiển thị định dạng/track mà thiết bị nhận diện. Codec âm thanh/hình ảnh thực phát được phụ thuộc decoder của TV; DTS/TrueHD không được đảm bảo nếu thiết bị không hỗ trợ. Tải file **TiviNha-x.y.z.apk** ở cùng trang Releases.
+
+**Đã bỏ tính năng đọc truyện** khỏi DriveTune (điện thoại/Android Auto) và TiviNhà.
 
 - ✅ **Android Auto khi xe đang chạy**: dùng giao diện media chuẩn của Android Auto (Yêu thích · Danh sách · Vừa nghe · Truyền hình · Tìm kiếm), chạm một lần là phát.
 - 📺 **Live TV — truyền hình trực tiếp miễn phí**: **Việt Nam** (có **VTV1–VTV10, Vietnam Today và 37 đài địa phương** qua VTV Go chính chủ), **Tin tức** tiếng Anh nổi tiếng (Al Jazeera, France 24, DW, NHK World, CNA, NBC News NOW, Bloomberg, CNBC, Reuters…), **Khoa học** (BBC Earth, NatureTime, WildEarth, History Hit…) và **Của bạn** (tự dán link danh sách M3U). Bấm **Dò kênh** là app tự tải lại danh sách, thử từng kênh: kênh xem được lên đầu, kênh chết xuống cuối. Tìm kênh, **kênh yêu thích**, nút vô lăng để **chuyển kênh**, hiện **chương trình đang chiếu / kế tiếp** khi có lịch.
