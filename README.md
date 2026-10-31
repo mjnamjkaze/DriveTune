@@ -10,7 +10,7 @@
 
 **Đã bỏ tính năng đọc truyện** khỏi DriveTune (điện thoại/Android Auto) và TiviNhà.
 
-- ✅ **Android Auto khi xe đang chạy**: dùng giao diện media chuẩn của Android Auto (Yêu thích · Danh sách · Vừa nghe · Truyền hình · Tìm kiếm), chạm một lần là phát.
+- ✅ **Android Auto khi xe đang chạy**: dùng giao diện media chuẩn của Android Auto; mục **Tìm & vừa nghe** gộp cụm tìm gần đây với bài đã nghe, và có mục phát ngẫu nhiên theo thể loại.
 - 📺 **Live TV — truyền hình trực tiếp miễn phí**: **Việt Nam** (có **VTV1–VTV10, Vietnam Today và 37 đài địa phương** qua VTV Go chính chủ), **Tin tức** tiếng Anh nổi tiếng (Al Jazeera, France 24, DW, NHK World, CNA, NBC News NOW, Bloomberg, CNBC, Reuters…), **Khoa học** (BBC Earth, NatureTime, WildEarth, History Hit…) và **Của bạn** (tự dán link danh sách M3U). Bấm **Dò kênh** là app tự tải lại danh sách, thử từng kênh: kênh xem được lên đầu, kênh chết xuống cuối. Tìm kênh, **kênh yêu thích**, nút vô lăng để **chuyển kênh**, hiện **chương trình đang chiếu / kế tiếp** khi có lịch.
 - 🗣️ **"Hey Google, phát … trên DriveTune"**: Trợ lý Google tìm và phát ngay, xếp các bài sau vào hàng chờ.
 - ⏭️ **Nút vô lăng đi theo hàng chờ**: hết hàng chờ thì tự phát các bài liên quan (cùng thể loại); hàng chờ tự dài thêm, nghe không hụt.
@@ -18,12 +18,20 @@
 - 🎬 **Bật/tắt video**: bật để xem video như YouTube; tắt để chỉ nghe, màn hình hiện **ảnh nền dịu mắt** thay cho ảnh bìa, lại đỡ tốn 3G/4G.
 - 🖼️ **10 ảnh nền HD, 10 chủ đề**: oải hương, biển, hoa anh đào, đồi chè, rừng thu, núi tuyết, đồng hoa, đáy biển, phố đêm, ngân hà. Màu tươi mà không chói.
 - 🔎 **Tìm bài rồi thêm vào hàng chờ**: bấm + ở bài muốn nghe, kéo xuống là hiện thêm kết quả; trên Android Auto có bàn phím to và nút nói.
+- 🎲 **Ngẫu nhiên theo thể loại**: mỗi lần mở sẽ trộn các thể loại và bài mới; Next tiếp tục qua hàng chờ và tự lấy lượt bài ngẫu nhiên tiếp theo.
+- ℹ️ **Giới thiệu & miễn trừ trách nhiệm**: có thông tin nhà phát triển và điều khoản sử dụng trong Cài đặt.
 - 🔔 **Tự báo có bản mới**: cập nhật ngay trong Cài đặt, không phải lên GitHub tải tay.
 - 🔇 **Không quảng cáo**: chặn từ gốc, bài vào luôn không phải chờ.
 - 📱 **Phát nền, tắt màn hình vẫn nghe**, có bong bóng nổi để điều khiển trên Google Maps.
 - 🚗 **Chế độ lái**: nút to, nền tối, chỉ ảnh nền + tên bài (không bao giờ có hình video / TV), nút ♥ lưu bài đang phát, nút ⏻ **tắt app** một chạm, nút vô lăng chuyển bài được.
 - ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì DriveTune tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
-- 🧭 **Mở app là thấy ngay menu**: Tìm · Hàng chờ · Yêu thích · Vừa nghe · Danh sách · TV, đều là icon vừa một hàng, không phải trượt ngang.
+- 🧭 **Mở app là thấy ngay menu**: Tìm (gồm cụm từ đã tìm và bài vừa nghe) · Hàng chờ · Yêu thích · Ngẫu nhiên · Danh sách · TV; các mục là icon vừa một hàng, không phải trượt ngang.
+
+## Bản 2.26.0
+
+- Bỏ chức năng đọc tên danh sách bằng giọng Hoài My.
+- Gộp cụm từ tìm gần đây và bài vừa nghe; thêm phát ngẫu nhiên theo thể loại, tự tải tiếp để nút Next phát liên tục.
+- Thêm thông tin nhà phát triển và miễn trừ trách nhiệm trong Cài đặt.
 
 > Từ khoá: xem tv trên android auto, live tv android auto, xem truyền hình trực tiếp trên ô tô, nghe nhạc youtube trên android auto, youtube android auto, app nghe nhạc ô tô, nghe nhạc khi lái xe, youtube phát nền, youtube không quảng cáo, nhạc cho xe hơi, android auto music app, youtube music android auto apk.
 
@@ -44,6 +52,8 @@ Lỗi này có ở bản 2.3.0 và đã sửa ở **2.4.0**. "Đang tải dữ l
 Từ 2.4.0, app phát được **mà không cần mở trên điện thoại**. Có lỗi thì xe hiện thông báo rõ ràng thay vì chờ mãi.
 
 **Xe đang chạy có phát nhạc được không?** Được. Khi xe chạy, Android Auto chỉ cho dùng giao diện media chuẩn và khoá bàn phím. Giao diện này DriveTune hỗ trợ đầy đủ: chạm để chọn bài, bấm 🎙️ để tìm bằng giọng nói.
+
+**Nút phát/tạm dừng trên màn hình Android Auto không hoạt động?** Đã sửa ở **2.25.1**: lệnh phát tiếp gọi cả YouTube Player API và HTML media player để tương thích các trang YouTube khác nhau. Đã được người dùng xác nhận nút pause/play hoạt động trên màn hình ô tô sau khi cập nhật.
 
 **Nói xong mà không tìm gì?** Đã sửa ở 2.4.0: câu nói được nhận ngay trong app, không qua hộp thoại riêng (hộp thoại này hay không hiện được trên màn hình xe), rồi phát bài đầu tiên luôn.
 
@@ -129,7 +139,7 @@ App chỉ là một `WebView` full-screen trỏ vào YouTube Music, cộng thêm
 | [PlaybackGuard.kt](app/src/main/java/com/gsvn/aamusic/web/PlaybackGuard.kt) | Tự phát lại khi trang tự dừng + ép chất lượng thấp |
 | [MediaSessionHolder.kt](app/src/main/java/com/gsvn/aamusic/player/MediaSessionHolder.kt) | Phiên media dùng chung — nhận nút chuyển bài trên vô lăng |
 | [DriveMode.kt](app/src/main/java/com/gsvn/aamusic/ui/DriveMode.kt) | Lớp phủ Chế độ lái (nút to, nền tối, ảnh bìa) |
-| [LibrarySheet.kt](app/src/main/java/com/gsvn/aamusic/ui/LibrarySheet.kt) | Bảng Hàng chờ · Yêu thích · Vừa nghe · Danh sách |
+| [LibrarySheet.kt](app/src/main/java/com/gsvn/aamusic/ui/LibrarySheet.kt) | Bảng Tìm · Hàng chờ · Yêu thích · Ngẫu nhiên · Danh sách |
 | [DriveLibrary.kt](app/src/main/java/com/gsvn/aamusic/data/DriveLibrary.kt) | Yêu thích / vừa nghe / hàng chờ / điểm nghe tiếp |
 | [DrivePlaylists.kt](app/src/main/java/com/gsvn/aamusic/data/DrivePlaylists.kt) | 29 danh sách dựng sẵn: lái xe, thể loại, nghe & học |
 | [DriveSettings.kt](app/src/main/java/com/gsvn/aamusic/data/DriveSettings.kt) | Tuỳ chọn người dùng |
@@ -430,7 +440,7 @@ Các mảnh ghép trong [AndroidManifest.xml](app/src/main/AndroidManifest.xml) 
 
 ### Cây duyệt media — dùng được lúc xe đang chạy
 
-Khi xe chạy, Android Auto chỉ cho dùng **giao diện media chuẩn**: hệ thống tự vẽ nút to, khoá bàn phím và cho đọc bằng giọng nói. [DriveBrowserService](app/src/main/java/com/gsvn/aamusic/car/DriveBrowserService.kt) đưa **Yêu thích · Danh sách · Vừa nghe** cùng **ô tìm kiếm** vào giao diện đó. Phần này **thêm vào, không thay thế**: các intent-filter giả dạng app điều hướng ở `MainActivity` vẫn là thứ chiếu giao diện điện thoại lên màn xe, đừng bỏ.
+Khi xe chạy, Android Auto chỉ cho dùng **giao diện media chuẩn**: hệ thống tự vẽ nút to, khoá bàn phím và cho đọc bằng giọng nói. [DriveBrowserService](app/src/main/java/com/gsvn/aamusic/car/DriveBrowserService.kt) đưa **Yêu thích · Danh sách · Tìm & vừa nghe · Ngẫu nhiên** cùng **ô tìm kiếm** vào giao diện đó. Phần này **thêm vào, không thay thế**: các intent-filter giả dạng app điều hướng ở `MainActivity` vẫn là thứ chiếu giao diện điện thoại lên màn xe, đừng bỏ.
 
 **Vì sao bản 2.3.0 treo ở "Đang tải dữ liệu..."** — sau khi chạm một mục, màn hình chờ đó của Android Auto chỉ tắt khi phiên media báo `PLAYING` hoặc `ERROR`. Có bốn lỗi khiến không bao giờ có báo cáo nào:
 
