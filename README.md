@@ -29,6 +29,10 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì DriveTune tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
 - 🧭 **Mở app là thấy ngay menu**: Tìm (gồm cụm từ đã tìm và bài vừa nghe) · Hàng chờ · Yêu thích · Ngẫu nhiên · Danh sách · TV; các mục là icon vừa một hàng, không phải trượt ngang.
 
+## Bản 2.26.5
+
+- Đổi icon ứng dụng sang biểu tượng YouTube ReVanced cao cấp (màn hình trắng, nút phát và dải lụa chuyển sắc đỏ–tím–lam trên nền tối sang trọng).
+
 ## Bản 2.26.4
 
 - Đổi icon app: giữ nút phát đỏ nguyên bản YouTube kèm chữ Premium nhỏ tinh tế phía trên, nền trắng thanh lịch.
