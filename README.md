@@ -1,6 +1,6 @@
-# DriveTune — Nghe nhạc YouTube và xem TV trực tiếp trên Android Auto (miễn phí, phát nền, chặn quảng cáo)
+# YouTube Android Auto — DriveTune phát nhạc YouTube trên màn hình xe
 
-**DriveTune** là app Android miễn phí để **nghe nhạc YouTube trên màn hình ô tô qua Android Auto**, kể cả **khi xe đang chạy**. Chọn bài bằng nút to trên màn hình xe hoặc **ra lệnh bằng giọng nói** ("Hey Google, phát Sơn Tùng trên DriveTune"). App **phát nền khi tắt màn hình**, **chặn quảng cáo**, tự bỏ qua đoạn tài trợ (SponsorBlock), và có sẵn danh sách **nhạc trẻ, nhạc Việt, nhạc Trung (Hoa ngữ), K-Pop, Âu Mỹ, Remix, nhạc không lời, thiếu nhi**, cùng mục nghe **khoa học, lịch sử, sách nói, podcast, học tiếng Anh**. Có **Truyền hình trực tiếp (Live TV)** miễn phí, công khai: kênh Việt Nam, tin tức tiếng Anh nổi tiếng và kênh khoa học.
+**DriveTune** là ứng dụng Android để **nghe YouTube trên Android Auto**: tìm và phát nhạc từ màn hình ô tô, điều khiển bằng giọng nói, hoặc tiếp tục phát nền khi tắt màn hình điện thoại. Ứng dụng có tìm kiếm, hàng chờ, yêu thích, phát ngẫu nhiên, SponsorBlock và các danh sách nhạc Việt, K-pop, remix, nhạc quốc tế, podcast, sách nói cùng nhiều chủ đề khác. Cài APK trên điện thoại Android rồi bật *Unknown sources* trong cài đặt Android Auto để dùng trên xe.
 
 <p align="center">
   <a href="https://github.com/mjnamjkaze/DriveTune/releases/latest"><b>⬇️ Tải DriveTune APK bản mới nhất</b></a>
@@ -27,13 +27,16 @@
 - ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì DriveTune tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
 - 🧭 **Mở app là thấy ngay menu**: Tìm (gồm cụm từ đã tìm và bài vừa nghe) · Hàng chờ · Yêu thích · Ngẫu nhiên · Danh sách · TV; các mục là icon vừa một hàng, không phải trượt ngang.
 
+## Bản 2.26.1
+
+- Sửa ô tìm kiếm trên TiviNhà để bàn phím TV bật ổn định khi chạm hoặc chuyển focus vào ô nhập.
+- Đổi icon và banner TiviNhà sang nhận diện YouTube Premium.
+
 ## Bản 2.26.0
 
 - Bỏ chức năng đọc tên danh sách bằng giọng Hoài My.
 - Gộp cụm từ tìm gần đây và bài vừa nghe; thêm phát ngẫu nhiên theo thể loại, tự tải tiếp để nút Next phát liên tục.
 - Thêm thông tin nhà phát triển và miễn trừ trách nhiệm trong Cài đặt.
-
-> Từ khoá: xem tv trên android auto, live tv android auto, xem truyền hình trực tiếp trên ô tô, nghe nhạc youtube trên android auto, youtube android auto, app nghe nhạc ô tô, nghe nhạc khi lái xe, youtube phát nền, youtube không quảng cáo, nhạc cho xe hơi, android auto music app, youtube music android auto apk.
 
 ## Cài đặt nhanh (3 bước)
 
