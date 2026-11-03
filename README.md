@@ -29,6 +29,15 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì DriveTune tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
 - 🧭 **Mở app là thấy ngay menu**: Tìm (gồm cụm từ đã tìm và bài vừa nghe) · Hàng chờ · Yêu thích · Ngẫu nhiên · Danh sách · TV; các mục là icon vừa một hàng, không phải trượt ngang.
 
+## Bản 2.27.0
+
+- Bỏ các danh sách Sáng sớm, Đêm khuya, Đường dài, Trong phố, Thư giãn, Sôi động; thêm danh sách Khám phá.
+- Mỗi danh sách có ô Từ khoá thêm: gõ "châu âu, châu á" ở Khám phá là tìm thêm "Khám phá châu âu", "Khám phá châu á".
+- Tự thêm danh sách mới, xoá danh sách không dùng, và khôi phục lại danh sách mặc định.
+- Chọn được nhiều danh sách mặc định, lên xe là trộn chung một hàng chờ.
+- Bỏ phần giải thích trong ngoặc ở tên danh sách và Cài đặt.
+- TiviNhà tự báo khi GitHub có bản mới và cập nhật ngay trên TV; dùng icon YouTube Premium.
+
 ## Bản 2.26.8
 
 - Mở rộng tìm kiếm danh sách nhạc với các từ khóa thịnh hành, TikTok, hay nhất, lượt nghe và theo tuần/tháng/năm; hàng chờ tự tải tiếp các trang kết quả.
@@ -398,15 +407,18 @@ Mỗi mục chỉ là **dấu trang do người dùng tạo ra trong lúc dùng 
 
 **Hàng chờ chỉ hoạt động khi người dùng tự xếp bài.** Để trống thì app không can thiệp, YouTube tự chạy bài kế như từ trước tới nay — nhờ vậy tính năng mới không giành quyền với hành vi cũ.
 
-### 15. Danh sách dựng sẵn theo bối cảnh lái
+### 15. Danh sách dựng sẵn
 
-29 mục, chia 3 nhóm (màn hình xe hiện tiêu đề nhóm):
+22 mục dựng sẵn, chia nhóm (màn hình xe hiện tiêu đề nhóm):
 
 | Nhóm | Danh sách |
 |---|---|
-| Lái xe | Yêu thích · Sáng sớm · Đêm khuya · Đường dài · Trong phố · Thư giãn · Sôi động · Rock · Disco |
-| Thể loại | Nhạc Việt · Nhạc trẻ · Nhạc Trung (Hoa ngữ) · Nhạc Hàn (K-Pop) · Âu Mỹ (English) · Rap Việt · Remix – EDM · Acoustic · Nhạc Trịnh · Không lời – Piano · Lofi · Thiếu nhi |
-| Nghe & học | Khoa học · Lịch sử · Sách nói · Truyện audio · Podcast · Học tiếng Anh |
+| Nghe nhiều | Âu Mỹ · Nhạc Trung · Thiếu nhi · Khoa học · Khám phá · Lịch sử · Yêu thích |
+| Thể loại | Nhạc Việt · Nhạc trẻ · Rock · Disco · Nhạc Hàn · Rap Việt · Remix – EDM · Acoustic · Nhạc Trịnh · Không lời – Piano · Lofi |
+| Nghe & học | Sách nói · Truyện audio · Podcast · Học tiếng Anh |
+| Của bạn | các mục người dùng tự thêm |
+
+Người dùng xoá được bất kỳ mục nào (trừ Yêu thích), tự thêm mục mới chỉ bằng một cái tên, và "Khôi phục danh sách mặc định" để về đúng bộ dựng sẵn. Mỗi mục có ô **Từ khoá thêm**: gõ "châu âu, châu á" ở *Khám phá* thì tìm thêm "Khám phá châu âu", "Khám phá châu á" bên cạnh các từ khoá gốc. Ghim được **nhiều** danh sách mặc định; lên xe là trộn chung một hàng chờ.
 
 Đây **không phải** một hệ thống playlist riêng — mỗi mục chỉ là một từ khoá tìm kiếm đi qua đúng luồng tìm kiếm sẵn có, còn "Yêu thích" thì đọc từ `DriveLibrary`. Thêm/bớt một danh sách chỉ là sửa bảng `ALL` trong [DrivePlaylists.kt](app/src/main/java/com/gsvn/aamusic/data/DrivePlaylists.kt).
 
