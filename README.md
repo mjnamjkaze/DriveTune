@@ -17,7 +17,7 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - 🗣️ **"Hey Google, phát … trên DriveTune"**: Trợ lý Google tìm và phát ngay, xếp các bài sau vào hàng chờ.
 - ⏭️ **Nút vô lăng đi theo hàng chờ**: hết hàng chờ thì tự phát các bài liên quan (cùng thể loại); hàng chờ tự dài thêm, nghe không hụt.
 - 🚗 **Cắm vào xe là vào Chế độ lái và phát tiếp**; ảnh nền tự tối đi ban đêm cho khỏi chói.
-- 🎬 **Bật/tắt video**: bật để xem video như YouTube; tắt để chỉ nghe, màn hình hiện **ảnh nền dịu mắt** thay cho ảnh bìa, lại đỡ tốn 3G/4G.
+- 🎬 **Bật/tắt video**: bật để xem video như YouTube, kể cả khi xe đang chạy; tắt để chỉ nghe, màn hình hiện **ảnh nền dịu mắt** thay cho ảnh bìa, lại đỡ tốn 3G/4G.
 - 🖼️ **10 ảnh nền HD, 10 chủ đề**: oải hương, biển, hoa anh đào, đồi chè, rừng thu, núi tuyết, đồng hoa, đáy biển, phố đêm, ngân hà. Màu tươi mà không chói.
 - 🔎 **Tìm bài rồi thêm vào hàng chờ**: bấm + ở bài muốn nghe, kéo xuống là hiện thêm kết quả; trên Android Auto có bàn phím to và nút nói.
 - 🎲 **Ngẫu nhiên theo thể loại**: mỗi lần mở sẽ trộn các thể loại và bài mới; Next tiếp tục qua hàng chờ và tự lấy lượt bài ngẫu nhiên tiếp theo.
@@ -25,9 +25,15 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - 🔔 **Tự báo có bản mới**: cập nhật ngay trong Cài đặt, không phải lên GitHub tải tay.
 - 🔇 **Không quảng cáo**: chặn từ gốc, bài vào luôn không phải chờ.
 - 📱 **Phát nền, tắt màn hình vẫn nghe**, có bong bóng nổi để điều khiển trên Google Maps.
-- 🚗 **Chế độ lái**: nút to, nền tối, chỉ ảnh nền + tên bài (không bao giờ có hình video / TV), nút ♥ lưu bài đang phát, nút ⏻ **tắt app** một chạm, nút vô lăng chuyển bài được.
+- 🚗 **Chế độ lái**: nút to, nền tối, lớp phủ chỉ hiện ảnh nền + tên bài; thoát lớp phủ để xem video nếu đã bật tùy chọn Hiện video. Có nút ♥ lưu bài, nút ⏻ **tắt app** một chạm và nút vô lăng chuyển bài.
 - ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì DriveTune tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
 - 🧭 **Mở app là thấy ngay menu**: Tìm (gồm cụm từ đã tìm và bài vừa nghe) · Hàng chờ · Yêu thích · Ngẫu nhiên · Danh sách · TV; các mục là icon vừa một hàng, không phải trượt ngang.
+
+## Bản 2.26.6
+
+- Mở rộng tìm kiếm danh sách nhạc với các từ khóa thịnh hành, TikTok, hay nhất, lượt nghe và theo tuần/tháng/năm; hàng chờ tự tải tiếp các trang kết quả.
+- Loại kết quả video ngắn dưới 4 phút; cho phép xem video và toàn màn hình khi xe chạy nếu bật **Hiện video**.
+- Đưa liên kết miễn trừ trách nhiệm lên đầu Cài đặt, dễ nhận biết và mở trực tiếp.
 
 ## Bản 2.26.5
 
@@ -109,7 +115,7 @@ Từ 2.4.0, app phát được **mà không cần mở trên điện thoại**. 
 Ứng dụng Android bọc WebView phát **YouTube / YouTube Music dạng audio-first**, làm riêng cho lúc lái xe — **Chế độ lái** nút to chữ rõ, thư viện Yêu thích / Hàng chờ / Danh sách dựng sẵn, lệnh nói, chạy nhạc nền, chặn quảng cáo, và **chạy được trên Android Auto** (cả giao diện media chuẩn lẫn chiếu màn hình).
 
 - Package: `com.gsvn.aamusic`
-- minSdk 35 · targetSdk 36 · versionName 2.12.0
+- minSdk 35 · targetSdk 36 · versionName 2.26.6
 - Ngôn ngữ: Kotlin + WebView (không dùng thư viện player riêng)
 
 > ⚠️ Dự án mang tính học tập / cá nhân. Việc bọc YouTube trong WebView, chặn quảng cáo và giả dạng app điều hướng để lên Android Auto có thể vi phạm ToS của YouTube/Google. Tự chịu trách nhiệm khi dùng.
