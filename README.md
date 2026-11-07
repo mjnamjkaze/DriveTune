@@ -29,6 +29,11 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì DriveTune tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
 - 🧭 **Mở app là thấy ngay menu**: Tìm (gồm cụm từ đã tìm và bài vừa nghe) · Hàng chờ · Yêu thích · Ngẫu nhiên · Danh sách · TV; các mục là icon vừa một hàng, không phải trượt ngang.
 
+## Bản 2.27.1
+
+- Sửa nút Phát / Tạm dừng trên màn hình xe không ăn khi app đã tắt trên điện thoại.
+- Lúc đó màn hình xe cũng cập nhật đúng tên bài và thanh tiến độ, không còn đứng ở "đang tải"; hết bài tự chuyển sang bài kế trong hàng chờ.
+
 ## Bản 2.27.0
 
 - Bỏ các danh sách Sáng sớm, Đêm khuya, Đường dài, Trong phố, Thư giãn, Sôi động; thêm danh sách Khám phá.
@@ -130,7 +135,7 @@ Từ 2.4.0, app phát được **mà không cần mở trên điện thoại**. 
 Ứng dụng Android bọc WebView phát **YouTube / YouTube Music dạng audio-first**, làm riêng cho lúc lái xe — **Chế độ lái** nút to chữ rõ, thư viện Yêu thích / Hàng chờ / Danh sách dựng sẵn, lệnh nói, chạy nhạc nền, chặn quảng cáo, và **chạy được trên Android Auto** (cả giao diện media chuẩn lẫn chiếu màn hình).
 
 - Package: `com.gsvn.aamusic`
-- minSdk 35 · targetSdk 36 · versionName 2.26.8
+- minSdk 35 · targetSdk 36 · versionName 2.27.1
 - Ngôn ngữ: Kotlin + WebView (không dùng thư viện player riêng)
 
 > ⚠️ Dự án mang tính học tập / cá nhân. Việc bọc YouTube trong WebView, chặn quảng cáo và giả dạng app điều hướng để lên Android Auto có thể vi phạm ToS của YouTube/Google. Tự chịu trách nhiệm khi dùng.
