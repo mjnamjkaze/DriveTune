@@ -29,6 +29,11 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì DriveTune tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
 - 🧭 **Mở app là thấy ngay menu**: Ngẫu nhiên · Tìm (gồm cụm từ đã tìm và bài vừa nghe) · Yêu thích · Hàng chờ · Danh sách · TV; các mục là icon vừa một hàng, không phải trượt ngang.
 
+## Bản 2.29.0
+
+- Tìm bằng giọng nói nhanh hơn: nói xong chừng 1 giây là app tìm luôn, không phải chờ 4–5 giây như trước.
+- TiviNhà: màn Chỉ nghe tiếng thay ảnh Trái Đất bằng ảnh Bầu trời sao hoặc Thiên hà 4K (chọn trong Cài đặt), góc trên có giờ, thứ ngày và thời tiết hiện tại.
+
 ## Bản 2.28.0
 
 - Chế độ lái có ba nút lối tắt: Ngẫu nhiên, Giọng nói, Yêu thích; chữ nhỏ lại cho gọn.
