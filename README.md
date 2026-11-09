@@ -25,10 +25,16 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - 🔔 **Tự báo có bản mới**: cập nhật ngay trong Cài đặt, không phải lên GitHub tải tay.
 - 🔇 **Không quảng cáo**: chặn từ gốc, bài vào luôn không phải chờ.
 - 📱 **Phát nền, tắt màn hình vẫn nghe**, có bong bóng nổi để điều khiển trên Google Maps.
-- 🚗 **Chế độ lái**: nút to, nền tối, chỉ ảnh nền + tên bài (không bao giờ có hình video / TV), nút ♥ lưu bài đang phát, nút ⏻ **tắt app** một chạm, nút vô lăng chuyển bài được.
+- 🚗 **Chế độ lái**: nút to, nền tối, ảnh nền + tên bài (hiện video nếu Cài đặt cho phép), nút ♥ lưu bài đang phát, nút ⏻ **tắt app** một chạm, nút vô lăng chuyển bài được.
 - ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì DriveTune tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
 - 🧭 **Menu nhanh** (khi mở ở Chế độ lái hoặc bấm nút Thư viện): Ngẫu nhiên · Tìm (gồm cụm từ đã tìm và bài vừa nghe) · Yêu thích · Hàng chờ · Danh sách · TV; các mục là icon vừa một hàng, không phải trượt ngang.
 - ▶️ **Dùng như YouTube thường**: bật trong Cài đặt là app thành trình xem YouTube gọn — chỉ trang YouTube, có video, không quảng cáo, tìm bằng giọng nói; ẩn Chế độ lái, menu, TV, ảnh nền.
+
+## Bản 2.32.0
+
+- Chế độ lái hiện video thay cho ảnh nền khi Cài đặt cho phép (bật Hiện video hoặc Dùng như YouTube thường; khi xe chạy thì cần tắt Chỉ nghe tiếng khi xe chạy).
+- TiviNhà an toàn hơn cho trẻ em: bật Chế độ hạn chế của YouTube, lọc thêm video game, 18+, kinh dị, prank, chửi bới, rượu bia, cờ bạc; từ khoá như vậy thì không tìm.
+- TiviNhà bỏ các kênh nước ngoài (Tin tức, Khoa học, Phim), chỉ còn VTV Go, kênh Việt Nam và danh sách của bạn.
 
 ## Bản 2.31.0
 
