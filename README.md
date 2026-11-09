@@ -27,7 +27,15 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - 📱 **Phát nền, tắt màn hình vẫn nghe**, có bong bóng nổi để điều khiển trên Google Maps.
 - 🚗 **Chế độ lái**: nút to, nền tối, chỉ ảnh nền + tên bài (không bao giờ có hình video / TV), nút ♥ lưu bài đang phát, nút ⏻ **tắt app** một chạm, nút vô lăng chuyển bài được.
 - ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì DriveTune tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
-- 🧭 **Mở app là thấy ngay menu**: Ngẫu nhiên · Tìm (gồm cụm từ đã tìm và bài vừa nghe) · Yêu thích · Hàng chờ · Danh sách · TV; các mục là icon vừa một hàng, không phải trượt ngang.
+- 🧭 **Menu nhanh** (khi mở ở Chế độ lái hoặc bấm nút Thư viện): Ngẫu nhiên · Tìm (gồm cụm từ đã tìm và bài vừa nghe) · Yêu thích · Hàng chờ · Danh sách · TV; các mục là icon vừa một hàng, không phải trượt ngang.
+- ▶️ **Dùng như YouTube thường**: bật trong Cài đặt là app thành trình xem YouTube gọn — chỉ trang YouTube, có video, không quảng cáo; ẩn Chế độ lái, menu, TV, ảnh nền.
+
+## Bản 2.30.0
+
+- Thêm tuỳ chọn Dùng như YouTube thường: bật là app chỉ còn trang YouTube có video, chặn quảng cáo, ẩn Chế độ lái, menu, TV và ảnh nền.
+- Tắt "Mở chế độ lái khi khởi động" thì mở app là vào thẳng trang YouTube, không bật menu nữa.
+- Sửa "Tự phát khi nối với xe": tắt rồi thì nối Bluetooth / Android Auto không còn tự phát nhạc.
+- Bỏ tuỳ chọn Tiết kiệm dữ liệu: khi không hiện video, app tự hạ chất lượng hình cho đỡ tốn dữ liệu.
 
 ## Bản 2.29.0
 
