@@ -8,15 +8,15 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
   <a href="https://github.com/mjnamjkaze/DriveTune/releases/latest"><b>⬇️ Tải DriveTune APK bản mới nhất</b></a>
 </p>
 
-> 📺 **TiviNhà** — ứng dụng **xem YouTube không quảng cáo trên Android TV và Google TV** bằng điều khiển; hỗ trợ tìm kiếm bằng giọng nói, truyền hình trực tiếp và phát video trong máy/USB. Tải file **TiviNha-x.y.z.apk** ở cùng trang Releases. Thư viện video có thể yêu cầu quyền Video của Android để liệt kê tệp đã lập chỉ mục trên bộ nhớ/USB; cũng có thể cấp quyền chọn thư mục qua SAF. Nếu firmware không có trình chọn thư mục, vẫn có thể duyệt video đã lập chỉ mục; nếu không có cả trình chọn tệp và SAF, cần bật/cập nhật ứng dụng Files của hệ thống hoặc firmware TV. Mục **Cài đặt** trên trang chủ cho phép đặt tốc độ phát, ngôn ngữ audio/phụ đề ưu tiên, bật/tắt phụ đề mặc định và quản lý thư viện. Menu tùy chọn theo từng video chỉ hiện khi tạm dừng. Hỗ trợ phụ đề nhúng và phụ đề rời SRT/ASS/SSA/VTT, chọn audio track, ưu tiên giải mã phần cứng bằng Media3 và hiển thị định dạng/track mà thiết bị nhận diện. Codec thực phát được phụ thuộc decoder và đường ra âm thanh của TV; nếu AAC 5.1 cũng im tiếng trong VLC, hãy thử đặt đầu ra âm thanh số của TV thành PCM/stereo và kiểm tra receiver/soundbar. DTS/TrueHD không được đảm bảo nếu thiết bị không hỗ trợ.
+> 📺 **TiviNhà** — ứng dụng **xem YouTube không quảng cáo trên Android TV và Google TV** bằng điều khiển; hỗ trợ tìm kiếm bằng giọng nói, truyền hình trực tiếp và phát video trong máy/USB. Tải file **TiviNha-x.y.z.apk** ở cùng trang Releases. Thư viện video có thể yêu cầu quyền Video của Android để liệt kê tệp đã lập chỉ mục trên bộ nhớ/USB; cũng có thể cấp quyền chọn thư mục qua SAF. Nếu firmware không có trình chọn thư mục, vẫn có thể duyệt video đã lập chỉ mục; nếu không có cả trình chọn tệp và SAF, cần bật/cập nhật ứng dụng Files của hệ thống hoặc firmware TV. Mục **Cài đặt** trên trang chủ gọn còn ảnh nền Chỉ nghe tiếng, quản lý thư viện và cập nhật. Menu tùy chọn theo từng video (âm thanh, phụ đề, tốc độ) chỉ hiện khi tạm dừng. Hỗ trợ phụ đề nhúng và phụ đề rời SRT/ASS/SSA/VTT, chọn audio track, ưu tiên giải mã phần cứng bằng Media3 và hiển thị định dạng/track mà thiết bị nhận diện. Codec thực phát được phụ thuộc decoder và đường ra âm thanh của TV; nếu AAC 5.1 cũng im tiếng trong VLC, hãy thử đặt đầu ra âm thanh số của TV thành PCM/stereo và kiểm tra receiver/soundbar. DTS/TrueHD không được đảm bảo nếu thiết bị không hỗ trợ.
 
 **Đã bỏ tính năng đọc truyện** khỏi DriveTune (điện thoại/Android Auto) và TiviNhà.
 
 - ✅ **Android Auto khi xe đang chạy**: dùng giao diện media chuẩn của Android Auto; mục **Tìm & vừa nghe** gộp cụm tìm gần đây với bài đã nghe, và có mục phát ngẫu nhiên theo thể loại.
-- 📺 **Live TV — truyền hình trực tiếp miễn phí**: **Việt Nam** (có **VTV1–VTV10, Vietnam Today và 37 đài địa phương** qua VTV Go chính chủ), **Tin tức** tiếng Anh nổi tiếng (Al Jazeera, France 24, DW, NHK World, CNA, NBC News NOW, Bloomberg, CNBC, Reuters…), **Khoa học** (BBC Earth, NatureTime, WildEarth, History Hit…) và **Của bạn** (tự dán link danh sách M3U). Bấm **Dò kênh** là app tự tải lại danh sách, thử từng kênh: kênh xem được lên đầu, kênh chết xuống cuối. Tìm kênh, **kênh yêu thích**, nút vô lăng để **chuyển kênh**, hiện **chương trình đang chiếu / kế tiếp** khi có lịch.
+- 📺 **Live TV — truyền hình trực tiếp miễn phí**: **Việt Nam** (có **VTV1–VTV10, Vietnam Today và 37 đài địa phương** qua VTV Go chính chủ), **Tin tức** tiếng Anh nổi tiếng (Al Jazeera, France 24, DW, NHK World, CNA, NBC News NOW, Bloomberg, CNBC, Reuters…), **Khoa học** (BBC Earth, NatureTime, WildEarth, History Hit…) và **Của bạn** (tự dán link danh sách M3U). Không cần dò kênh: app tự kiểm tra ngầm, kênh xem được lên đầu, kênh chết xuống cuối. Tìm kênh, **kênh yêu thích**, nút vô lăng để **chuyển kênh**, hiện **chương trình đang chiếu / kế tiếp** khi có lịch.
 - 🗣️ **"Hey Google, phát … trên DriveTune"**: Trợ lý Google tìm và phát ngay, xếp các bài sau vào hàng chờ.
 - ⏭️ **Nút vô lăng đi theo hàng chờ**: hết hàng chờ thì tự phát các bài liên quan (cùng thể loại); hàng chờ tự dài thêm, nghe không hụt.
-- 🚗 **Cắm vào xe là vào Chế độ lái và phát tiếp**; ảnh nền tự tối đi ban đêm cho khỏi chói.
+- 🚗 **Nối Android Auto là vào Chế độ lái và phát tiếp**, rút ra là về trang YouTube; ảnh nền tự tối đi ban đêm cho khỏi chói.
 - 🎬 **Bật/tắt video**: bật để xem video như YouTube; khi xe chạy, ứng dụng chỉ phát tiếng (tắt được bằng công tắc Chỉ nghe tiếng khi xe chạy). Tắt để luôn chỉ nghe và hiện **ảnh nền dịu mắt** thay cho ảnh bìa.
 - 🖼️ **10 ảnh nền HD, 10 chủ đề**: oải hương, biển, hoa anh đào, đồi chè, rừng thu, núi tuyết, đồng hoa, đáy biển, phố đêm, ngân hà. Màu tươi mà không chói.
 - 🔎 **Tìm bài rồi thêm vào hàng chờ**: bấm + ở bài muốn nghe, kéo xuống là hiện thêm kết quả; trên Android Auto có bàn phím to và nút nói.
@@ -25,10 +25,17 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - 🔔 **Tự báo có bản mới**: cập nhật ngay trong Cài đặt, không phải lên GitHub tải tay.
 - 🔇 **Không quảng cáo**: chặn từ gốc, bài vào luôn không phải chờ.
 - 📱 **Phát nền, tắt màn hình vẫn nghe**, có bong bóng nổi để điều khiển trên Google Maps.
-- 🚗 **Chế độ lái**: nút to, nền tối, ảnh nền + tên bài (hiện video nếu Cài đặt cho phép), nút ♥ lưu bài đang phát, nút ⏻ **tắt app** một chạm, nút vô lăng chuyển bài được.
+- 🚗 **Chế độ lái**: nút to, nền tối, ảnh nền + tên bài (hiện video nếu Cài đặt cho phép), nút ♥ lưu bài đang phát, nút ⏻ **tắt app** một chạm, nút vô lăng chuyển bài được. Chỉ hiện khi nối Android Auto, không có nút mở / đóng tay.
 - ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì DriveTune tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
-- 🧭 **Menu nhanh** (khi mở ở Chế độ lái hoặc bấm nút Thư viện): Ngẫu nhiên · Tìm (gồm cụm từ đã tìm và bài vừa nghe) · Yêu thích · Hàng chờ · Danh sách · TV; các mục là icon vừa một hàng, không phải trượt ngang.
+- 🧭 **Menu nhanh** (trong Chế độ lái hoặc bấm nút Thư viện): Ngẫu nhiên · Tìm (gồm cụm từ đã tìm và bài vừa nghe) · Yêu thích · Hàng chờ · Danh sách · TV; các mục là icon vừa một hàng, không phải trượt ngang.
 - ▶️ **Dùng như YouTube thường**: bật trong Cài đặt là app thành trình xem YouTube gọn — chỉ trang YouTube, có video, không quảng cáo, tìm bằng giọng nói; ẩn Chế độ lái, menu, TV, ảnh nền.
+
+## Bản 2.33.0
+
+- Chế độ lái chỉ hiện khi nối Android Auto; ngoài xe app là trang YouTube thường. Bỏ nút mở Chế độ lái, nút ✕ đóng và tuỳ chọn "Mở chế độ lái khi khởi động".
+- Ẩn nút "Nhấn để bật tiếng" của YouTube, app tự bật tiếng.
+- Bỏ nút Dò kênh ở mục TV (DriveTune và TiviNhà), app tự kiểm tra ngầm.
+- TiviNhà: Cài đặt bỏ tốc độ phát, ngôn ngữ audio/phụ đề, phụ đề mặc định và mục khắc phục không có tiếng.
 
 ## Bản 2.32.0
 
