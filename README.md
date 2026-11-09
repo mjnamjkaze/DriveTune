@@ -17,7 +17,7 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - 🗣️ **"Hey Google, phát … trên DriveTune"**: Trợ lý Google tìm và phát ngay, xếp các bài sau vào hàng chờ.
 - ⏭️ **Nút vô lăng đi theo hàng chờ**: hết hàng chờ thì tự phát các bài liên quan (cùng thể loại); hàng chờ tự dài thêm, nghe không hụt.
 - 🚗 **Cắm vào xe là vào Chế độ lái và phát tiếp**; ảnh nền tự tối đi ban đêm cho khỏi chói.
-- 🎬 **Bật/tắt video**: bật để xem video như YouTube khi xe dừng; khi xe chạy, ứng dụng chỉ phát tiếng. Tắt để luôn chỉ nghe và hiện **ảnh nền dịu mắt** thay cho ảnh bìa.
+- 🎬 **Bật/tắt video**: bật để xem video như YouTube; khi xe chạy, ứng dụng chỉ phát tiếng (tắt được bằng công tắc Chỉ nghe tiếng khi xe chạy). Tắt để luôn chỉ nghe và hiện **ảnh nền dịu mắt** thay cho ảnh bìa.
 - 🖼️ **10 ảnh nền HD, 10 chủ đề**: oải hương, biển, hoa anh đào, đồi chè, rừng thu, núi tuyết, đồng hoa, đáy biển, phố đêm, ngân hà. Màu tươi mà không chói.
 - 🔎 **Tìm bài rồi thêm vào hàng chờ**: bấm + ở bài muốn nghe, kéo xuống là hiện thêm kết quả; trên Android Auto có bàn phím to và nút nói.
 - 🎲 **Ngẫu nhiên ưu tiên Yêu thích**: bắt đầu bằng bài yêu thích, xen bài ngẫu nhiên từ các danh sách nhạc; Next tiếp tục qua hàng chờ và tự lấy lượt bài ngẫu nhiên tiếp theo.
@@ -28,7 +28,13 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - 🚗 **Chế độ lái**: nút to, nền tối, chỉ ảnh nền + tên bài (không bao giờ có hình video / TV), nút ♥ lưu bài đang phát, nút ⏻ **tắt app** một chạm, nút vô lăng chuyển bài được.
 - ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì DriveTune tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
 - 🧭 **Menu nhanh** (khi mở ở Chế độ lái hoặc bấm nút Thư viện): Ngẫu nhiên · Tìm (gồm cụm từ đã tìm và bài vừa nghe) · Yêu thích · Hàng chờ · Danh sách · TV; các mục là icon vừa một hàng, không phải trượt ngang.
-- ▶️ **Dùng như YouTube thường**: bật trong Cài đặt là app thành trình xem YouTube gọn — chỉ trang YouTube, có video, không quảng cáo; ẩn Chế độ lái, menu, TV, ảnh nền.
+- ▶️ **Dùng như YouTube thường**: bật trong Cài đặt là app thành trình xem YouTube gọn — chỉ trang YouTube, có video, không quảng cáo, tìm bằng giọng nói; ẩn Chế độ lái, menu, TV, ảnh nền.
+
+## Bản 2.31.0
+
+- Thêm công tắc Chỉ nghe tiếng khi xe chạy (mặc định bật). Tắt đi thì xe chạy vẫn hiện video như lúc dừng.
+- Dùng như YouTube thường: luôn hiện video kể cả khi xe chạy, có nút micro trên thanh tìm để tìm bằng giọng nói.
+- Ẩn thanh trên cùng của YouTube (logo, ⋮, Open App), chỉ còn thanh tìm của app.
 
 ## Bản 2.30.0
 
