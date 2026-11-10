@@ -337,9 +337,13 @@ Xoá các khoá đó trước khi trang đọc thì trình phát **không có g�
 
 | Đường | Cách vá |
 |---|---|
-| `ytInitialPlayerResponse` (nhúng trong HTML lần tải đầu) | `Object.defineProperty` setter, scrub khi trang gán |
-| `fetch('/youtubei/v1/player')` (bài sau, điều hướng kiểu SPA) | bọc `window.fetch`, dựng lại `Response` đã cắt |
-| `XMLHttpRequest` | định nghĩa lại getter `responseText`/`response` ngay từ `open()` |
+| `ytInitialPlayerResponse` / `playerResponse` (nhúng trong HTML lần tải đầu) | `Object.defineProperty` setter, scrub khi trang gán |
+| `JSON.parse` + `Response.prototype.json` (lưới chung, như `json-prune` của uBlock) | scrub mọi JSON có dấu quảng cáo — bắt cả `/player`, `get_watch`, `resolve_url`, Shorts dù trang đi đường nào |
+| `fetch('/youtubei/…', '/resolve_url', '/watch?')` | bọc `window.fetch`, dựng lại `Response` đã cắt (giữ `url`, header) |
+| `XMLHttpRequest` | định nghĩa lại getter `responseText`/`response` ngay từ `open()`; `responseType='json'` thì scrub object |
+| iframe trống trang tạo để lấy `fetch`/`JSON` "sạch" | bọc `appendChild`/`insertBefore`/`append`… cài lại các hook vào iframe ngay khi gắn |
+
+Ngoài khoá quảng cáo của trình phát, còn bỏ phần tử danh sách có `adSlotRenderer` (ô "Được tài trợ") và Shorts có `adClientParams.isAd`. Script chỉ chạy trên `youtube.com` / `youtube-nocookie.com` / `youtubekids.com`. Quảng cáo khâu thẳng vào luồng (SSAP, `getStatsForNerds().debug_info` bắt đầu bằng `SSAP, AD`) thì lớp giao diện tua bằng `player.seekTo(getProgressState().duration)` thay vì tua thẻ `<video>` tới cuối (làm vậy là bỏ luôn cả bài).
 
 Script này **bắt buộc chạy ở document-start** (`WebViewCompat.addDocumentStartJavaScript`). Chạy ở `onPageFinished` là muộn: biến đã được gán và trang đã giữ tham chiếu `fetch` gốc.
 
