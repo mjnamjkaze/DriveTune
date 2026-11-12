@@ -2,7 +2,7 @@
 
 DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầu riêng: **nghe YouTube trên Android Auto** khi lái xe và **xem YouTube không quảng cáo trên Android TV / Google TV**.
 
-**DriveTune** giúp tìm và phát nhạc YouTube từ màn hình ô tô, điều khiển bằng giọng nói và tiếp tục phát nền khi tắt màn hình điện thoại. Có tìm kiếm kèm gợi ý chạm-là-tìm, hàng chờ, yêu thích, phát ngẫu nhiên và SponsorBlock. Cài APK trên điện thoại Android rồi bật *Unknown sources* trong cài đặt Android Auto để dùng trên xe.
+**DriveTune** giúp tìm và phát nhạc YouTube từ màn hình ô tô, điều khiển bằng giọng nói và tiếp tục phát nền khi tắt màn hình điện thoại. Có tìm kiếm kèm gợi ý chạm-là-tìm, yêu thích, phát ngẫu nhiên và SponsorBlock. Cài APK trên điện thoại Android rồi bật *Unknown sources* trong cài đặt Android Auto để dùng trên xe.
 
 <p align="center">
   <a href="https://github.com/mjnamjkaze/DriveTune/releases/latest"><b>⬇️ Tải DriveTune APK bản mới nhất</b></a>
@@ -19,7 +19,7 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - 🚗 **Nối Android Auto là vào Chế độ lái và phát tiếp**, rút ra là về trang YouTube; ảnh nền tự tối đi ban đêm cho khỏi chói.
 - 🎬 **Bật/tắt video**: bật để xem video như YouTube, kể cả khi nối Android Auto; muốn xe chạy chỉ nghe tiếng thì bật công tắc **Chỉ nghe tiếng khi xe chạy** (mặc định tắt). Tắt để luôn chỉ nghe và hiện **ảnh nền dịu mắt** thay cho ảnh bìa.
 - 🖼️ **10 ảnh nền HD, 10 chủ đề**: oải hương, biển, hoa anh đào, đồi chè, rừng thu, núi tuyết, đồng hoa, đáy biển, phố đêm, ngân hà. Màu tươi mà không chói.
-- 🔎 **Tìm bài rồi thêm vào hàng chờ**: ô tìm trống thì bên dưới có vài gợi ý chạm-là-tìm, gõ chữ là gợi ý ẩn đi; bấm + ở bài muốn nghe, kéo xuống là hiện thêm kết quả; trên Android Auto có bàn phím to và nút nói.
+- 🔎 **Tìm bài**: ô tìm trống thì bên dưới có vài gợi ý chạm-là-tìm, gõ chữ là gợi ý ẩn đi; chạm bài là phát, các kết quả sau thành bài kế tiếp; kéo xuống là hiện thêm kết quả; trên Android Auto có bàn phím to và nút nói.
 - 🎲 **Ngẫu nhiên ưu tiên Yêu thích**: bắt đầu bằng bài yêu thích, xen bài ngẫu nhiên nhiều thể loại; Next tiếp tục qua hàng chờ và tự lấy lượt bài ngẫu nhiên tiếp theo.
 - ℹ️ **Giới thiệu & miễn trừ trách nhiệm**: có thông tin nhà phát triển và điều khoản sử dụng trong Cài đặt.
 - 🔔 **Tự báo có bản mới**: cập nhật ngay trong Cài đặt, không phải lên GitHub tải tay.
@@ -27,8 +27,16 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - 📱 **Phát nền, tắt màn hình vẫn nghe**, có bong bóng nổi để điều khiển trên Google Maps.
 - 🚗 **Chế độ lái**: nút to, nền tối, ảnh nền + tên bài (hiện video nếu Cài đặt cho phép), nút ♥ lưu bài đang phát, nút ⏻ **tắt app** một chạm, nút vô lăng chuyển bài được. Chỉ hiện khi nối Android Auto, không có nút mở / đóng tay.
 - ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì DriveTune tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
-- 🧭 **Menu nhanh** (trong Chế độ lái hoặc bấm nút Thư viện): Ngẫu nhiên · Tìm (gợi ý và bài vừa nghe) · Yêu thích · Hàng chờ · TV; các mục là icon vừa một hàng, không phải trượt ngang.
+- 🧭 **Menu nhanh** (trong Chế độ lái hoặc bấm nút menu): Ngẫu nhiên · Tìm (gợi ý và bài vừa nghe) · Yêu thích · TV; các mục là icon vừa một hàng, không phải trượt ngang.
 - ▶️ **Dùng như YouTube thường**: bật trong Cài đặt là app thành trình xem YouTube gọn — chỉ trang YouTube, có video, không quảng cáo, tìm bằng giọng nói, nút ♥ trên thanh tìm lưu bài đang xem vào Yêu thích; ẩn Chế độ lái, menu, TV, ảnh nền.
+
+## Bản 2.41.0
+
+- Danh sách sát hơn: mỗi dòng bài / kênh / gợi ý thấp lại, một màn thấy được nhiều mục hơn.
+- Bỏ mục Hàng chờ và nút + thêm vào hàng chờ; next trên vô lăng vẫn đi tiếp theo kết quả tìm / bài liên quan như cũ.
+- Kênh TV (DriveTune và TiviNhà) giữ đúng thứ tự trong danh sách gốc: không còn đẩy kênh hỏng hay kênh không phát 24/7 xuống cuối.
+- Bong bóng nổi bỏ bóng đổ, viền gọn không còn mờ.
+- Cài đặt có dòng Phiên bản · Kiểm tra cập nhật: chạm là hỏi bản mới ngay; mất mạng thì báo chưa kiểm tra được thay vì báo nhầm là bản mới nhất (sửa cả TiviNhà).
 
 ## Bản 2.40.0
 
@@ -191,7 +199,7 @@ Từ 2.4.0, app phát được **mà không cần mở trên điện thoại**. 
 
 **Đổi ảnh nền màn phát?** Cài đặt (chạm logo) → **Hình nền** → chạm một trong 10 ảnh: Đồng oải hương · Biển nhiệt đới · Hoa anh đào · Đồi chè · Rừng thu · Núi tuyết · Đồng hoa · Đáy biển · Phố đêm · Dải ngân hà. Ảnh có sẵn trong app, không tải qua mạng.
 
-**Xếp nhiều bài để nghe lần lượt?** Bấm nút **thư viện** cạnh ô tìm (hoặc nút Hàng chờ trong Chế độ lái) → mục **Tìm** → chạm một gợi ý bên dưới ô tìm (tìm gần đây, từ khoá hay dùng) hoặc gõ tên bài → bấm **+** ở từng bài. Kéo xuống cuối là tải thêm kết quả. Chạm vào bài là phát ngay. Trên màn hình Android Auto, ô tìm dùng bàn phím to của app thay cho bàn phím hệ thống (vốn hiện bé tí, không gõ được). Hàng chờ phát từ một lần tìm hay một danh sách thì **kéo xuống là dài thêm**, và tự nối dài khi sắp hết bài.
+**Tìm và nghe bài?** Bấm nút **menu** cạnh ô tìm (hoặc nút menu trong Chế độ lái) → mục **Tìm** → chạm một gợi ý bên dưới ô tìm (tìm gần đây, từ khoá hay dùng) hoặc gõ tên bài → chạm bài là phát ngay, các kết quả sau tự thành bài kế tiếp. Kéo xuống cuối là tải thêm kết quả. Từ 2.41.0 không còn mục Hàng chờ và nút +. Trên màn hình Android Auto, ô tìm dùng bàn phím to của app thay cho bàn phím hệ thống (vốn hiện bé tí, không gõ được). Hàng chờ phát từ một lần tìm hay một danh sách thì **kéo xuống là dài thêm**, và tự nối dài khi sắp hết bài.
 
 **Bấm next trên vô lăng thì phát bài nào?** Bài kế trong hàng chờ. Hết hàng chờ thì app tải thêm theo lần tìm / danh sách đang phát; không còn nữa thì phát **các bài liên quan tới bài đang nghe** (thường cùng thể loại, ca sĩ). Nút prev: đã nghe quá 5 giây thì về đầu bài, bấm tiếp thì về bài trước.
 
@@ -269,7 +277,7 @@ App chỉ là một `WebView` full-screen trỏ vào YouTube Music, cộng thêm
 | [PlaybackGuard.kt](app/src/main/java/com/gsvn/aamusic/web/PlaybackGuard.kt) | Tự phát lại khi trang tự dừng + ép chất lượng thấp |
 | [MediaSessionHolder.kt](app/src/main/java/com/gsvn/aamusic/player/MediaSessionHolder.kt) | Phiên media dùng chung — nhận nút chuyển bài trên vô lăng |
 | [DriveMode.kt](app/src/main/java/com/gsvn/aamusic/ui/DriveMode.kt) | Lớp phủ Chế độ lái (nút to, nền tối, ảnh bìa) |
-| [LibrarySheet.kt](app/src/main/java/com/gsvn/aamusic/ui/LibrarySheet.kt) | Bảng Ngẫu nhiên · Tìm · Yêu thích · Hàng chờ · Danh sách |
+| [LibrarySheet.kt](app/src/main/java/com/gsvn/aamusic/ui/LibrarySheet.kt) | Bảng Ngẫu nhiên · Tìm · Yêu thích · TV |
 | [DriveLibrary.kt](app/src/main/java/com/gsvn/aamusic/data/DriveLibrary.kt) | Yêu thích / vừa nghe / hàng chờ / điểm nghe tiếp |
 | [DrivePlaylists.kt](app/src/main/java/com/gsvn/aamusic/data/DrivePlaylists.kt) | 29 danh sách dựng sẵn: lái xe, thể loại, nghe & học |
 | [DriveSettings.kt](app/src/main/java/com/gsvn/aamusic/data/DriveSettings.kt) | Tuỳ chọn người dùng |
@@ -491,7 +499,7 @@ Vài điểm đáng nói:
 
 ### 14. Thư viện: yêu thích, hàng chờ, vừa nghe
 
-Bảng thư viện ([LibrarySheet](app/src/main/java/com/gsvn/aamusic/ui/LibrarySheet.kt)) có mục **Tìm**: gọi `YouTubeSearch.searchPage` ([YouTubeSearch](app/src/main/java/com/gsvn/aamusic/data/YouTubeSearch.kt)), mỗi kết quả có nút + để `DriveLibrary.enqueue`, chạm hàng thì phát ngay. Kéo gần đáy thì xin trang sau bằng mã `continuationItemRenderer…continuationCommand.token` của `youtubei/v1/search` và nối vào cuối danh sách. Trên màn hình xe, ô tìm tắt bàn phím hệ thống (`showSoftInputOnFocus = false`) và hiện [CarKeyboard](app/src/main/java/com/gsvn/aamusic/widget/CarKeyboard.kt) ngay trong bảng; nút 🎙️ dùng `SpeechRecognizer` như nút mic chính. Mở từ nút thư viện trên thanh tìm hoặc nút Hàng chờ trong Chế độ lái.
+Bảng thư viện ([LibrarySheet](app/src/main/java/com/gsvn/aamusic/ui/LibrarySheet.kt)) có mục **Tìm**: gọi `YouTubeSearch.searchPage` ([YouTubeSearch](app/src/main/java/com/gsvn/aamusic/data/YouTubeSearch.kt)), chạm hàng thì phát ngay (từ 2.41.0 không còn nút + / mục Hàng chờ; hàng chờ nội bộ vẫn dùng cho bài kế tiếp). Kéo gần đáy thì xin trang sau bằng mã `continuationItemRenderer…continuationCommand.token` của `youtubei/v1/search` và nối vào cuối danh sách. Trên màn hình xe, ô tìm tắt bàn phím hệ thống (`showSoftInputOnFocus = false`) và hiện [CarKeyboard](app/src/main/java/com/gsvn/aamusic/widget/CarKeyboard.kt) ngay trong bảng; nút 🎙️ dùng `SpeechRecognizer` như nút mic chính. Mở từ nút menu trên thanh tìm hoặc nút menu trong Chế độ lái.
 
 [DriveLibrary](app/src/main/java/com/gsvn/aamusic/data/DriveLibrary.kt) lưu JSON trong `SharedPreferences`, tái dùng model [VideoItem](app/src/main/java/com/gsvn/aamusic/data/VideoItem.kt) vốn đã có sẵn khả năng ser/de.
 
