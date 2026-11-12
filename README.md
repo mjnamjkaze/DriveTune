@@ -2,7 +2,7 @@
 
 DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầu riêng: **nghe YouTube trên Android Auto** khi lái xe và **xem YouTube không quảng cáo trên Android TV / Google TV**.
 
-**DriveTune** giúp tìm và phát nhạc YouTube từ màn hình ô tô, điều khiển bằng giọng nói và tiếp tục phát nền khi tắt màn hình điện thoại. Có tìm kiếm, hàng chờ, yêu thích, phát ngẫu nhiên, SponsorBlock và danh sách nhạc Việt, K-pop, remix, nhạc quốc tế, podcast, sách nói cùng nhiều chủ đề khác. Cài APK trên điện thoại Android rồi bật *Unknown sources* trong cài đặt Android Auto để dùng trên xe.
+**DriveTune** giúp tìm và phát nhạc YouTube từ màn hình ô tô, điều khiển bằng giọng nói và tiếp tục phát nền khi tắt màn hình điện thoại. Có tìm kiếm kèm gợi ý chạm-là-tìm, hàng chờ, yêu thích, phát ngẫu nhiên và SponsorBlock. Cài APK trên điện thoại Android rồi bật *Unknown sources* trong cài đặt Android Auto để dùng trên xe.
 
 <p align="center">
   <a href="https://github.com/mjnamjkaze/DriveTune/releases/latest"><b>⬇️ Tải DriveTune APK bản mới nhất</b></a>
@@ -12,23 +12,29 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 
 **Đã bỏ tính năng đọc truyện** khỏi DriveTune (điện thoại/Android Auto) và TiviNhà.
 
-- ✅ **Android Auto khi xe đang chạy**: dùng giao diện media chuẩn của Android Auto; mục **Tìm & vừa nghe** gộp cụm tìm gần đây với bài đã nghe, và có mục phát ngẫu nhiên theo thể loại.
+- ✅ **Android Auto khi xe đang chạy**: dùng giao diện media chuẩn của Android Auto; mục **Ngẫu nhiên** gộp nút phát ngẫu nhiên, cụm tìm gần đây, vài từ khoá gợi ý và bài đã nghe.
 - 📺 **Live TV — truyền hình trực tiếp miễn phí**: **Việt Nam** (có **VTV1–VTV10, Vietnam Today và 37 đài địa phương** qua VTV Go chính chủ), **Tin tức** tiếng Anh nổi tiếng (Al Jazeera, France 24, DW, NHK World, CNA, NBC News NOW, Bloomberg, CNBC, Reuters…), **Khoa học** (BBC Earth, NatureTime, WildEarth, History Hit…). Không cần dò kênh: app tự thử mỗi kênh một lần, nhớ kết quả 365 ngày; kênh xem được lên đầu, kênh chết xuống cuối. Tìm kênh, **kênh yêu thích**, nút vô lăng để **chuyển kênh**, hiện **chương trình đang chiếu / kế tiếp** khi có lịch.
 - 🗣️ **"Hey Google, phát … trên DriveTune"**: Trợ lý Google tìm và phát ngay, xếp các bài sau vào hàng chờ.
 - ⏭️ **Nút vô lăng đi theo hàng chờ**: hết hàng chờ thì tự phát các bài liên quan (cùng thể loại); hàng chờ tự dài thêm, nghe không hụt.
 - 🚗 **Nối Android Auto là vào Chế độ lái và phát tiếp**, rút ra là về trang YouTube; ảnh nền tự tối đi ban đêm cho khỏi chói.
 - 🎬 **Bật/tắt video**: bật để xem video như YouTube, kể cả khi nối Android Auto; muốn xe chạy chỉ nghe tiếng thì bật công tắc **Chỉ nghe tiếng khi xe chạy** (mặc định tắt). Tắt để luôn chỉ nghe và hiện **ảnh nền dịu mắt** thay cho ảnh bìa.
 - 🖼️ **10 ảnh nền HD, 10 chủ đề**: oải hương, biển, hoa anh đào, đồi chè, rừng thu, núi tuyết, đồng hoa, đáy biển, phố đêm, ngân hà. Màu tươi mà không chói.
-- 🔎 **Tìm bài rồi thêm vào hàng chờ**: bấm + ở bài muốn nghe, kéo xuống là hiện thêm kết quả; trên Android Auto có bàn phím to và nút nói.
-- 🎲 **Ngẫu nhiên ưu tiên Yêu thích**: bắt đầu bằng bài yêu thích, xen bài ngẫu nhiên từ các danh sách nhạc; Next tiếp tục qua hàng chờ và tự lấy lượt bài ngẫu nhiên tiếp theo.
+- 🔎 **Tìm bài rồi thêm vào hàng chờ**: ô tìm trống thì bên dưới có vài gợi ý chạm-là-tìm, gõ chữ là gợi ý ẩn đi; bấm + ở bài muốn nghe, kéo xuống là hiện thêm kết quả; trên Android Auto có bàn phím to và nút nói.
+- 🎲 **Ngẫu nhiên ưu tiên Yêu thích**: bắt đầu bằng bài yêu thích, xen bài ngẫu nhiên nhiều thể loại; Next tiếp tục qua hàng chờ và tự lấy lượt bài ngẫu nhiên tiếp theo.
 - ℹ️ **Giới thiệu & miễn trừ trách nhiệm**: có thông tin nhà phát triển và điều khoản sử dụng trong Cài đặt.
 - 🔔 **Tự báo có bản mới**: cập nhật ngay trong Cài đặt, không phải lên GitHub tải tay.
 - 🔇 **Không quảng cáo**: chặn từ gốc, bài vào luôn không phải chờ.
 - 📱 **Phát nền, tắt màn hình vẫn nghe**, có bong bóng nổi để điều khiển trên Google Maps.
 - 🚗 **Chế độ lái**: nút to, nền tối, ảnh nền + tên bài (hiện video nếu Cài đặt cho phép), nút ♥ lưu bài đang phát, nút ⏻ **tắt app** một chạm, nút vô lăng chuyển bài được. Chỉ hiện khi nối Android Auto, không có nút mở / đóng tay.
 - ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì DriveTune tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
-- 🧭 **Menu nhanh** (trong Chế độ lái hoặc bấm nút Thư viện): Ngẫu nhiên · Tìm (gồm cụm từ đã tìm và bài vừa nghe) · Yêu thích · Hàng chờ · Danh sách · TV; các mục là icon vừa một hàng, không phải trượt ngang.
+- 🧭 **Menu nhanh** (trong Chế độ lái hoặc bấm nút Thư viện): Ngẫu nhiên · Tìm (gợi ý và bài vừa nghe) · Yêu thích · Hàng chờ · TV; các mục là icon vừa một hàng, không phải trượt ngang.
 - ▶️ **Dùng như YouTube thường**: bật trong Cài đặt là app thành trình xem YouTube gọn — chỉ trang YouTube, có video, không quảng cáo, tìm bằng giọng nói; ẩn Chế độ lái, menu, TV, ảnh nền.
+
+## Bản 2.36.0
+
+- Bỏ mục Danh sách nhạc ở menu, trên Android Auto và dòng Danh sách mặc định trong Cài đặt.
+- Màn Tìm: ô trống thì bên dưới hiện vài gợi ý (cụm vừa tìm, từ khoá hay dùng), chạm là tìm; bắt đầu gõ thì gợi ý ẩn đi.
+- Android Auto: mục Ngẫu nhiên có thêm vài từ khoá gợi ý chạm-là-phát.
 
 ## Bản 2.35.0
 
@@ -161,7 +167,7 @@ Từ 2.4.0, app phát được **mà không cần mở trên điện thoại**. 
 
 **Đổi ảnh nền màn phát?** Cài đặt (chạm logo) → **Hình nền** → chạm một trong 10 ảnh: Đồng oải hương · Biển nhiệt đới · Hoa anh đào · Đồi chè · Rừng thu · Núi tuyết · Đồng hoa · Đáy biển · Phố đêm · Dải ngân hà. Ảnh có sẵn trong app, không tải qua mạng.
 
-**Xếp nhiều bài để nghe lần lượt?** Bấm nút **thư viện** cạnh ô tìm (hoặc nút Hàng chờ trong Chế độ lái) → mục **Tìm** → chạm một gợi ý có sẵn (tìm gần đây, từ khoá hay dùng, gợi ý của YouTube khi gõ) hoặc gõ tên bài → bấm **+** ở từng bài. Kéo xuống cuối là tải thêm kết quả. Chạm vào bài là phát ngay. Trên màn hình Android Auto, ô tìm dùng bàn phím to của app thay cho bàn phím hệ thống (vốn hiện bé tí, không gõ được). Hàng chờ phát từ một lần tìm hay một danh sách thì **kéo xuống là dài thêm**, và tự nối dài khi sắp hết bài.
+**Xếp nhiều bài để nghe lần lượt?** Bấm nút **thư viện** cạnh ô tìm (hoặc nút Hàng chờ trong Chế độ lái) → mục **Tìm** → chạm một gợi ý bên dưới ô tìm (tìm gần đây, từ khoá hay dùng) hoặc gõ tên bài → bấm **+** ở từng bài. Kéo xuống cuối là tải thêm kết quả. Chạm vào bài là phát ngay. Trên màn hình Android Auto, ô tìm dùng bàn phím to của app thay cho bàn phím hệ thống (vốn hiện bé tí, không gõ được). Hàng chờ phát từ một lần tìm hay một danh sách thì **kéo xuống là dài thêm**, và tự nối dài khi sắp hết bài.
 
 **Bấm next trên vô lăng thì phát bài nào?** Bài kế trong hàng chờ. Hết hàng chờ thì app tải thêm theo lần tìm / danh sách đang phát; không còn nữa thì phát **các bài liên quan tới bài đang nghe** (thường cùng thể loại, ca sĩ). Nút prev: đã nghe quá 5 giây thì về đầu bài, bấm tiếp thì về bài trước.
 
