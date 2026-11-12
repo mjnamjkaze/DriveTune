@@ -30,6 +30,10 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - 🧭 **Menu nhanh** (trong Chế độ lái hoặc bấm nút Thư viện): Ngẫu nhiên · Tìm (gợi ý và bài vừa nghe) · Yêu thích · Hàng chờ · TV; các mục là icon vừa một hàng, không phải trượt ngang.
 - ▶️ **Dùng như YouTube thường**: bật trong Cài đặt là app thành trình xem YouTube gọn — chỉ trang YouTube, có video, không quảng cáo, tìm bằng giọng nói, nút ♥ trên thanh tìm lưu bài đang xem vào Yêu thích; ẩn Chế độ lái, menu, TV, ảnh nền.
 
+## Bản 2.39.0
+
+- Bỏ giao diện tối (bị lỗi chữ mờ khó đọc trong Cài đặt) và công tắc Luôn dùng nền tối: app luôn dùng giao diện sáng, kể cả khi máy để chế độ tối. Chế độ lái vẫn giữ nền xanh navy.
+
 ## Bản 2.38.0
 
 - Chế độ lái (khi nối Android Auto), menu lái xe và bong bóng nổi có giao diện mới: nền xanh navy sâu, nút phát xanh dương → cyan, tim hồng, lối tắt có icon màu; chữ to hơn, thẻ bo tròn có đổ bóng nhẹ.
