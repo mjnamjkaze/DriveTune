@@ -13,7 +13,7 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 **Đã bỏ tính năng đọc truyện** khỏi DriveTune (điện thoại/Android Auto) và TiviNhà.
 
 - ✅ **Android Auto khi xe đang chạy**: dùng giao diện media chuẩn của Android Auto; mục **Ngẫu nhiên** gộp nút phát ngẫu nhiên, cụm tìm gần đây, vài từ khoá gợi ý và bài đã nghe.
-- 📺 **Live TV — truyền hình trực tiếp miễn phí**: **Việt Nam** (có **VTV1–VTV10, Vietnam Today và 37 đài địa phương** qua VTV Go chính chủ), **Tin tức** tiếng Anh nổi tiếng (Al Jazeera, France 24, DW, NHK World, CNA, NBC News NOW, Bloomberg, CNBC, Reuters…), **Khoa học** (BBC Earth, NatureTime, WildEarth, History Hit…). Không cần dò kênh: app tự thử mỗi kênh một lần, nhớ kết quả 365 ngày; kênh xem được lên đầu, kênh chết xuống cuối. Tìm kênh, **kênh yêu thích**, nút vô lăng để **chuyển kênh**, hiện **chương trình đang chiếu / kế tiếp** khi có lịch.
+- 📺 **Live TV — truyền hình trực tiếp miễn phí**: **Việt Nam** (có **VTV1–VTV10, Vietnam Today và 37 đài địa phương** qua VTV Go chính chủ), **Tin tức** tiếng Anh nổi tiếng (Al Jazeera, France 24, DW, NHK World, CNA, NBC News NOW, Bloomberg, CNBC, Reuters…), **Khoa học** (BBC Earth, NatureTime, WildEarth, History Hit…). Không cần dò kênh: app tự thử mỗi kênh một lần, nhớ kết quả 365 ngày; danh sách kênh giữ nguyên thứ tự, kênh chết chỉ được đánh dấu. Tìm kênh, **kênh yêu thích**, nút vô lăng để **chuyển kênh**, hiện **chương trình đang chiếu / kế tiếp** khi có lịch.
 - 🗣️ **"Hey Google, phát … trên DriveTune"**: Trợ lý Google tìm và phát ngay, xếp các bài sau vào hàng chờ.
 - ⏭️ **Nút vô lăng đi theo hàng chờ**: hết hàng chờ thì tự phát các bài liên quan (cùng thể loại); hàng chờ tự dài thêm, nghe không hụt.
 - 🚗 **Nối Android Auto là vào Chế độ lái và phát tiếp**, rút ra là về trang YouTube; ảnh nền tự tối đi ban đêm cho khỏi chói.
@@ -28,7 +28,14 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - 🚗 **Chế độ lái**: nút to, nền tối, ảnh nền + tên bài (hiện video nếu Cài đặt cho phép), nút ♥ lưu bài đang phát, nút ⏻ **tắt app** một chạm, nút vô lăng chuyển bài được. Chỉ hiện khi nối Android Auto, không có nút mở / đóng tay.
 - ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì DriveTune tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
 - 🧭 **Menu nhanh** (trong Chế độ lái hoặc bấm nút Thư viện): Ngẫu nhiên · Tìm (gợi ý và bài vừa nghe) · Yêu thích · Hàng chờ · TV; các mục là icon vừa một hàng, không phải trượt ngang.
-- ▶️ **Dùng như YouTube thường**: bật trong Cài đặt là app thành trình xem YouTube gọn — chỉ trang YouTube, có video, không quảng cáo, tìm bằng giọng nói; ẩn Chế độ lái, menu, TV, ảnh nền.
+- ▶️ **Dùng như YouTube thường**: bật trong Cài đặt là app thành trình xem YouTube gọn — chỉ trang YouTube, có video, không quảng cáo, tìm bằng giọng nói, nút ♥ trên thanh tìm lưu bài đang xem vào Yêu thích; ẩn Chế độ lái, menu, TV, ảnh nền.
+
+## Bản 2.37.0
+
+- Giao diện trắng đen kiểu VS Code: bỏ màu ăn theo hình nền máy, Chế độ lái, bong bóng và thông báo chỉ còn sắc xám.
+- Danh sách kênh TV (DriveTune và TiviNhà) giữ nguyên thứ tự, không còn tự xếp lại theo tình trạng kênh.
+- Dùng như YouTube thường: vẫn không có menu nâng cao, nhưng có nút ♥ trên thanh tìm để thêm bài đang xem vào Yêu thích.
+- Icon ở dòng gợi ý / lịch sử tìm nhỏ lại cỡ chữ.
 
 ## Bản 2.36.0
 
@@ -177,7 +184,7 @@ Từ 2.4.0, app phát được **mà không cần mở trên điện thoại**. 
 
 **Kênh TV lấy từ đâu, có hợp pháp không?** DriveTune chỉ phát **luồng công khai, miễn phí** từ máy chủ của chính đài / nhà phân phối: **VTV1–VTV10 và đài địa phương lấy từ VTV Go** (luồng miễn phí, không cần đăng nhập, app xin địa chỉ mới mỗi lần mở kênh như trang vtvgo.vn), kênh Việt Nam đã kiểm tra thủ công (ANTV, QPVN, Hà Nội 1, Cần Thơ, Đồng Nai…), cộng kênh tin tức / khoa học tiếng Anh chọn từ danh sách cộng đồng [iptv-org](https://github.com/iptv-org/iptv) — mỗi kênh đều đã thử phát được, bỏ luồng cần đăng nhập / DRM / header giả, máy chủ IP trần và nguồn phát lại trái phép. Kênh trả tiền (HBO, Cinemax, AXN, gói VTVcab / SCTV…) không có. Mỗi kênh ghi rõ **nguồn** (tên máy chủ). Danh sách kênh cập nhật từ xa, không cần tải bản mới.
 
-**Kênh báo "không xem được"?** App đã tự thử lại vài lần. Kênh nguồn có thể đang ngừng phát, hoặc chỉ xem được ở nước sở tại. Mỗi kênh ghi rõ tình trạng lần dò gần nhất: **✓ Xem được**, **✕ Không xem được** (kèm lý do: bị chặn 403, không còn 404, lỗi TLS, có DRM…) hay **? Chưa rõ** (máy chủ bận 429/5xx, hết thời gian chờ). Kênh không xem được **xuống cuối danh sách**, không bị xoá; kết quả dò giữ 365 ngày; nhấn giữ kênh để thử lại.
+**Kênh báo "không xem được"?** App đã tự thử lại vài lần. Kênh nguồn có thể đang ngừng phát, hoặc chỉ xem được ở nước sở tại. Mỗi kênh ghi rõ tình trạng lần dò gần nhất: **✓ Xem được**, **✕ Không xem được** (kèm lý do: bị chặn 403, không còn 404, lỗi TLS, có DRM…) hay **? Chưa rõ** (máy chủ bận 429/5xx, hết thời gian chờ). Kênh không xem được **vẫn ở chỗ cũ** (thứ tự kênh không đổi), chỉ được đánh dấu, không bị xoá; kết quả dò giữ 365 ngày; nhấn giữ kênh để thử lại.
 
 **TiviNhà dùng thế nào trên TV?** Cài file **TiviNha-x.y.z.apk**, mở từ màn hình chính TV. Hàng trên có **YouTube** · **Truyền hình** · **Video trong máy** · ô tìm · 🎤. Trong thư viện, chọn **Thêm thư mục** để cấp quyền cho Movies, Download hoặc thư mục trên USB bằng bộ chọn Android; quyền được lưu khi thiết bị cho phép. Chọn tệp để phát, nhấn giữ để tiếp tục từ vị trí đã lưu, xem thông tin hoặc yêu thích. Hỗ trợ codec/container tùy khả năng giải mã của TV; phần mở rộng tệp không bảo đảm codec được hỗ trợ. Màn hình phát có chọn track âm thanh/phụ đề, phụ đề ngoài SRT/ASS/SSA/VTT, tốc độ, tua và khôi phục vị trí. Không cấp quyền filesystem rộng, không sao chép hay ghi dữ liệu lên USB. Nếu ổ không được Android mount/cung cấp trong bộ chọn, ứng dụng không thể truy cập ổ đó.
 
