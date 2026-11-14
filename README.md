@@ -13,13 +13,13 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 **Đã bỏ tính năng đọc truyện** khỏi DriveTune (điện thoại/Android Auto) và TiviNhà.
 
 - ✅ **Android Auto khi xe đang chạy**: dùng giao diện media chuẩn của Android Auto; mục **Ngẫu nhiên** gộp nút phát ngẫu nhiên, cụm tìm gần đây, vài từ khoá gợi ý và bài đã nghe.
-- 📺 **Live TV — truyền hình trực tiếp miễn phí**: **Việt Nam** (có **VTV1–VTV10, Vietnam Today và 37 đài địa phương** qua VTV Go chính chủ), **Tin tức** tiếng Anh nổi tiếng (Al Jazeera, France 24, DW, NHK World, CNA, NBC News NOW, Bloomberg, CNBC, Reuters…), **Khoa học** (BBC Earth, NatureTime, WildEarth, History Hit…). Không cần dò kênh: app tự thử mỗi kênh một lần, nhớ kết quả 365 ngày; danh sách kênh giữ nguyên thứ tự, kênh chết chỉ được đánh dấu. Tìm kênh, **kênh yêu thích**, nút vô lăng để **chuyển kênh**, hiện **chương trình đang chiếu / kế tiếp** khi có lịch.
+- 📺 **Live TV — truyền hình trực tiếp miễn phí**: chỉ kênh **Việt Nam** (có **VTV1–VTV10, Vietnam Today và 37 đài địa phương** qua VTV Go chính chủ). Không cần dò kênh: app tự thử mỗi kênh một lần, nhớ kết quả 365 ngày; danh sách kênh giữ nguyên thứ tự, kênh chết chỉ được đánh dấu. Tìm kênh, **kênh yêu thích**, nút vô lăng để **chuyển kênh**, hiện **chương trình đang chiếu / kế tiếp** khi có lịch.
 - 🗣️ **"Hey Google, phát … trên DriveTune"**: Trợ lý Google tìm và phát ngay, xếp các bài sau vào hàng chờ.
 - ⏭️ **Nút vô lăng đi theo hàng chờ**: hết hàng chờ thì tự phát các bài liên quan (cùng thể loại); hàng chờ tự dài thêm, nghe không hụt.
 - 🚗 **Nối Android Auto là vào Chế độ lái và phát tiếp**, rút ra là về trang YouTube; ảnh nền tự tối đi ban đêm cho khỏi chói.
 - 🎬 **Bật/tắt video**: bật để xem video như YouTube, kể cả khi nối Android Auto; muốn xe chạy chỉ nghe tiếng thì bật công tắc **Chỉ nghe tiếng khi xe chạy** (mặc định tắt). Tắt để luôn chỉ nghe và hiện **ảnh nền dịu mắt** thay cho ảnh bìa.
 - 🖼️ **10 ảnh nền HD, 10 chủ đề**: oải hương, biển, hoa anh đào, đồi chè, rừng thu, núi tuyết, đồng hoa, đáy biển, phố đêm, ngân hà. Màu tươi mà không chói.
-- 🔎 **Tìm bài**: ô tìm trống thì bên dưới có vài gợi ý chạm-là-tìm, gõ chữ là gợi ý ẩn đi; chạm bài là phát, các kết quả sau thành bài kế tiếp; kéo xuống là hiện thêm kết quả; trên Android Auto có bàn phím to và nút nói.
+- 🔎 **Tìm bài**: ô tìm viền xanh dễ nhận ra; ô trống thì bên dưới có các ô **Tìm nhanh** theo chủ đề (Khoa học, Điều thú vị, Khám phá, Du lịch các nước, Thế giới động vật, Bí ẩn, Lịch sử, Sách thay đổi cuộc sống, nhạc…), gõ chữ là ẩn đi; chạm bài là phát, các kết quả sau thành bài kế tiếp; kéo xuống là hiện thêm kết quả; trên Android Auto có bàn phím to và nút nói.
 - 🎲 **Ngẫu nhiên ưu tiên Yêu thích**: bắt đầu bằng bài yêu thích, xen bài ngẫu nhiên nhiều thể loại; Next tiếp tục qua hàng chờ và tự lấy lượt bài ngẫu nhiên tiếp theo.
 - ℹ️ **Giới thiệu & miễn trừ trách nhiệm**: có thông tin nhà phát triển và điều khoản sử dụng trong Cài đặt.
 - 🔔 **Tự báo có bản mới**: cập nhật ngay trong Cài đặt, không phải lên GitHub tải tay.
@@ -29,6 +29,14 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì DriveTune tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
 - 🧭 **Menu nhanh** (trong Chế độ lái hoặc bấm nút menu): Ngẫu nhiên · Tìm (gợi ý và bài vừa nghe) · Yêu thích · TV; các mục là icon vừa một hàng, không phải trượt ngang.
 - ▶️ **Dùng như YouTube thường**: bật trong Cài đặt là app thành trình xem YouTube gọn — chỉ trang YouTube, có video, không quảng cáo, tìm bằng giọng nói, nút ♥ trên thanh tìm lưu bài đang xem vào Yêu thích; ẩn Chế độ lái, menu, TV, ảnh nền.
+
+## Bản 2.43.0
+
+- Chế độ lái: chữ nhỏ lại, dòng sát hơn ở menu Tìm / Yêu thích / TV — một màn thấy được nhiều bài hơn; tên bài và các nút lối tắt ở màn phát cũng gọn lại.
+- Mục Tìm ở Chế độ lái làm lại cho dễ nhận ra: ô tìm có viền xanh và kính lúp ở đầu, bên dưới là các ô **Tìm nhanh** có icon: Khoa học · Điều thú vị · Khám phá · Du lịch các nước · Thế giới động vật · Bí ẩn · Lịch sử · Sách thay đổi cuộc sống · Nhạc trẻ · Nhạc Âu Mỹ · Nhạc Hoa ngữ; cụm vừa tìm nằm riêng ở hàng Vừa tìm. Android Auto cũng có đủ các chủ đề này.
+- TV của DriveTune chỉ còn kênh Việt Nam: bỏ mục Tin tức và Khoa học nước ngoài (cả trên Android Auto); kênh nước ngoài đã lưu yêu thích cũng ẩn đi.
+- TiviNhà: menu dọc bên trái như app YouTube trên TV — Tìm kiếm · YouTube · Truyền hình · Video trong máy, Cài đặt ở dưới cùng — tách khỏi hàng chủ đề. Ô tìm chỉ hiện ở mục Tìm kiếm.
+- TiviNhà: thêm chủ đề Học cờ vua · Học cờ tướng · Tiếng Anh giao tiếp · Truyện tiếng Anh · Học vẽ cho bé.
 
 ## Bản 2.41.0
 
