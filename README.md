@@ -8,7 +8,7 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
   <a href="https://github.com/mjnamjkaze/DriveTune/releases/latest"><b>⬇️ Tải DriveTune APK bản mới nhất</b></a>
 </p>
 
-> 📺 **TiviNhà** — ứng dụng **xem YouTube không quảng cáo trên Android TV và Google TV** bằng điều khiển; hỗ trợ tìm kiếm bằng giọng nói, truyền hình trực tiếp và phát video trong máy/USB. Tải file **TiviNha-x.y.z.apk** ở cùng trang Releases. Thư viện video có thể yêu cầu quyền Video của Android để liệt kê tệp đã lập chỉ mục trên bộ nhớ/USB; cũng có thể cấp quyền chọn thư mục qua SAF. Nếu firmware không có trình chọn thư mục, vẫn có thể duyệt video đã lập chỉ mục; nếu không có cả trình chọn tệp và SAF, cần bật/cập nhật ứng dụng Files của hệ thống hoặc firmware TV. Mục **Cài đặt** trên trang chủ gồm chủ đề YouTube (thêm, xoá, khôi phục mặc định), ảnh nền Chỉ nghe tiếng, quản lý thư viện và cập nhật. Menu tùy chọn theo từng video (âm thanh, phụ đề, tốc độ) chỉ hiện khi tạm dừng. Hỗ trợ phụ đề nhúng và phụ đề rời SRT/ASS/SSA/VTT, chọn audio track, ưu tiên giải mã phần cứng bằng Media3 và hiển thị định dạng/track mà thiết bị nhận diện. Codec thực phát được phụ thuộc decoder và đường ra âm thanh của TV; nếu AAC 5.1 cũng im tiếng trong VLC, hãy thử đặt đầu ra âm thanh số của TV thành PCM/stereo và kiểm tra receiver/soundbar. DTS/TrueHD không được đảm bảo nếu thiết bị không hỗ trợ.
+> 📺 **TiviNhà** — ứng dụng **xem YouTube không quảng cáo trên Android TV và Google TV** bằng điều khiển; hỗ trợ tìm kiếm bằng giọng nói, chủ đề khoa học/phát minh, cờ vua/cờ tướng, truyền hình trực tiếp và phát video trong máy/USB. Tải file **TiviNha-x.y.z.apk** ở cùng trang Releases. Thư viện video có thể yêu cầu quyền Video của Android để liệt kê tệp đã lập chỉ mục trên bộ nhớ/USB; cũng có thể cấp quyền chọn thư mục qua SAF. Nếu firmware không có trình chọn thư mục, vẫn có thể duyệt video đã lập chỉ mục; nếu không có cả trình chọn tệp và SAF, cần bật/cập nhật ứng dụng Files của hệ thống hoặc firmware TV. Mục **Cài đặt** trên trang chủ gồm chủ đề YouTube (thêm, xoá, khôi phục mặc định), ảnh nền Chỉ nghe tiếng, quản lý thư viện và cập nhật. Menu tùy chọn theo từng video (âm thanh, phụ đề, tốc độ) chỉ hiện khi tạm dừng. Hỗ trợ phụ đề nhúng và phụ đề rời SRT/ASS/SSA/VTT, chọn audio track, ưu tiên giải mã phần cứng bằng Media3 và hiển thị định dạng/track mà thiết bị nhận diện. Codec thực phát được phụ thuộc decoder và đường ra âm thanh của TV; nếu AAC 5.1 cũng im tiếng trong VLC, hãy thử đặt đầu ra âm thanh số của TV thành PCM/stereo và kiểm tra receiver/soundbar. DTS/TrueHD không được đảm bảo nếu thiết bị không hỗ trợ.
 
 **Đã bỏ tính năng đọc truyện** khỏi DriveTune (điện thoại/Android Auto) và TiviNhà.
 
@@ -17,18 +17,26 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - 🗣️ **"Hey Google, phát … trên DriveTune"**: Trợ lý Google tìm và phát ngay, xếp các bài sau vào hàng chờ.
 - ⏭️ **Nút vô lăng đi theo hàng chờ**: hết hàng chờ thì tự phát các bài liên quan (cùng thể loại); hàng chờ tự dài thêm, nghe không hụt.
 - 🚗 **Nối Android Auto là vào Chế độ lái và phát tiếp**, rút ra là về trang YouTube; ảnh nền tự tối đi ban đêm cho khỏi chói.
-- 🎬 **Bật/tắt video**: bật để xem video như YouTube, kể cả khi nối Android Auto; muốn xe chạy chỉ nghe tiếng thì bật công tắc **Chỉ nghe tiếng khi xe chạy** (mặc định tắt). Tắt để luôn chỉ nghe và hiện **ảnh nền dịu mắt** thay cho ảnh bìa.
-- 🖼️ **10 ảnh nền HD, 10 chủ đề**: oải hương, biển, hoa anh đào, đồi chè, rừng thu, núi tuyết, đồng hoa, đáy biển, phố đêm, ngân hà. Màu tươi mà không chói.
+- 🎬 **Bật/tắt video trên điện thoại**: tuỳ chọn chỉ áp dụng ngoài Android Auto; khi nối Android Auto luôn ẩn hình, chỉ phát tiếng và ép luồng xuống 144p. Trên điện thoại, bật **Chỉ nghe tiếng khi xe chạy** để ẩn video khi đang di chuyển.
+- 🖼️ **12 ảnh nền HD, 12 chủ đề**: oải hương, biển, hoa anh đào, đồi chè, rừng thu, núi tuyết, đồng hoa, đáy biển, phố đêm, ngân hà và hai hình đĩa than. Màu tươi mà không chói.
 - 🔎 **Tìm bài**: ô tìm viền xanh dễ nhận ra; ô trống thì bên dưới có các ô **Tìm nhanh** theo chủ đề (Khoa học, Điều thú vị, Khám phá, Du lịch các nước, Thế giới động vật, Bí ẩn, Lịch sử, Sách thay đổi cuộc sống, nhạc…), gõ chữ là ẩn đi; chạm bài là phát, các kết quả sau thành bài kế tiếp; kéo xuống là hiện thêm kết quả; trên Android Auto có bàn phím to và nút nói.
 - 🎲 **Ngẫu nhiên ưu tiên Yêu thích**: bắt đầu bằng bài yêu thích, xen bài ngẫu nhiên nhiều thể loại; Next tiếp tục qua hàng chờ và tự lấy lượt bài ngẫu nhiên tiếp theo.
 - ℹ️ **Giới thiệu & miễn trừ trách nhiệm**: có thông tin nhà phát triển và điều khoản sử dụng trong Cài đặt.
 - 🔔 **Tự báo có bản mới**: cập nhật ngay trong Cài đặt, không phải lên GitHub tải tay.
 - 🔇 **Không quảng cáo**: chặn từ gốc, bài vào luôn không phải chờ.
-- 📱 **Phát nền, tắt màn hình vẫn nghe**, có bong bóng nổi để điều khiển trên Google Maps.
-- 🚗 **Chế độ lái**: nút to, nền tối, ảnh nền + tên bài (hiện video nếu Cài đặt cho phép), nút ♥ lưu bài đang phát, nút ⏻ **tắt app** một chạm, nút vô lăng chuyển bài được. Chỉ hiện khi nối Android Auto, không có nút mở / đóng tay.
+- 📱 **Phát nền, tắt màn hình vẫn nghe**, điều khiển qua thông báo và Android Auto; không còn bong bóng nổi hay quyền hiển thị trên ứng dụng khác.
+- 🚗 **Chế độ lái**: nút to, nền tối, ảnh nền tĩnh + tên bài, nút ♥ lưu bài đang phát, nút ⏻ **tắt app** một chạm, nút vô lăng chuyển bài được. Chỉ hiện khi nối Android Auto, không có nút mở / đóng tay.
 - ⏸️ **Dừng là dừng**: bấm tạm dừng (Chế độ lái, vô lăng, thông báo) là dừng ngay; chuyển sang radio của xe hay mở app nhạc khác thì DriveTune tự dừng, có cuộc gọi thì dừng rồi phát tiếp khi gác máy.
 - 🧭 **Menu nhanh** (trong Chế độ lái hoặc bấm nút menu): Ngẫu nhiên · Tìm (gợi ý và bài vừa nghe) · Yêu thích · TV; các mục là icon vừa một hàng, không phải trượt ngang.
-- ▶️ **Dùng như YouTube thường**: bật trong Cài đặt là app thành trình xem YouTube gọn — chỉ trang YouTube, có video, không quảng cáo, tìm bằng giọng nói, nút ♥ trên thanh tìm lưu bài đang xem vào Yêu thích; ẩn Chế độ lái, menu, TV, ảnh nền.
+- ▶️ **Dùng như YouTube thường**: bật trong Cài đặt là app thành trình xem YouTube gọn trên điện thoại — chỉ trang YouTube, có video ngoài Android Auto, không quảng cáo, tìm bằng giọng nói, nút ♥ trên thanh tìm lưu bài đang xem vào Yêu thích; ẩn Chế độ lái, menu, TV, ảnh nền.
+
+## Bản 3.0.0
+
+- TiviNhà: chủ đề cờ vua/cờ tướng, khám phá khoa học và phát minh xuất hiện cùng các chủ đề YouTube khác; tìm kiếm được đặt cuối danh sách, ưu tiên nút nói.
+- TiviNhà / DriveTune: cập nhật AndroidX WebKit lên bản ổn định 1.18.0; bộ lọc quảng cáo vẫn là mã riêng vì WebKit không cung cấp bộ lọc YouTube.
+- Android Auto luôn ẩn video, ép luồng xuống 144p; Drive Mode chỉ dùng ảnh nền tĩnh. Video HD chỉ áp dụng trên điện thoại khi xe dừng.
+- Bỏ hoàn toàn bong bóng nổi, nút thu nhỏ và quyền SYSTEM_ALERT_WINDOW; giữ thông báo điều khiển phát nền.
+- Drive Mode: chuyển điểm nhấn sang hồng–tím theo biểu tượng ứng dụng; thêm hai nền đĩa than, giữ nền tối và bố cục nút lớn.
 
 ## Bản 2.45.0
 
@@ -281,14 +289,14 @@ App chỉ là một `WebView` full-screen trỏ vào YouTube Music, cộng thêm
 
 | File | Vai trò |
 |---|---|
-| [MainActivity.kt](app/src/main/java/com/gsvn/aamusic/MainActivity.kt) | Host WebView, AudioFocus, fullscreen, thu nhỏ bubble |
+| [MainActivity.kt](app/src/main/java/com/gsvn/aamusic/MainActivity.kt) | Host WebView, AudioFocus, fullscreen, Android Auto |
 | [BackgroundPlayWebView.kt](app/src/main/java/com/gsvn/aamusic/web/BackgroundPlayWebView.kt) | WebView không tự pause khi mất visibility |
 | [ConfiguredWebView.kt](app/src/main/java/com/gsvn/aamusic/web/ConfiguredWebView.kt) | Cấu hình WebView + inject JS spoof visibility, khoá search |
 | [PlayerController.kt](app/src/main/java/com/gsvn/aamusic/player/PlayerController.kt) | Cầu nối điều khiển play/next/prev qua JS |
-| [BackgroundPlaybackService.kt](app/src/main/java/com/gsvn/aamusic/BackgroundPlaybackService.kt) | Foreground service, WakeLock, notification, bubble nổi |
+| [BackgroundPlaybackService.kt](app/src/main/java/com/gsvn/aamusic/BackgroundPlaybackService.kt) | Foreground service, WakeLock, notification điều khiển |
 | [AdBlocker.kt](app/src/main/java/com/gsvn/aamusic/web/AdBlocker.kt) | Chặn quảng cáo cấp mạng + cắt dữ liệu ad + CSS/JS |
 | [SponsorBlock.kt](app/src/main/java/com/gsvn/aamusic/web/SponsorBlock.kt) | Bỏ qua đoạn sponsor/intro/outro |
-| [PlaybackGuard.kt](app/src/main/java/com/gsvn/aamusic/web/PlaybackGuard.kt) | Tự phát lại khi trang tự dừng + ép chất lượng thấp |
+| [PlaybackGuard.kt](app/src/main/java/com/gsvn/aamusic/web/PlaybackGuard.kt) | Tự phát lại khi trang tự dừng + chọn chất lượng luồng |
 | [MediaSessionHolder.kt](app/src/main/java/com/gsvn/aamusic/player/MediaSessionHolder.kt) | Phiên media dùng chung — nhận nút chuyển bài trên vô lăng |
 | [DriveMode.kt](app/src/main/java/com/gsvn/aamusic/ui/DriveMode.kt) | Lớp phủ Chế độ lái (nút to, nền tối, ảnh bìa) |
 | [LibrarySheet.kt](app/src/main/java/com/gsvn/aamusic/ui/LibrarySheet.kt) | Bảng Ngẫu nhiên · Tìm · Yêu thích · TV |
@@ -363,13 +371,13 @@ Ba đường vào, phủ các kiểu head unit khác nhau:
 
 Phiên luôn được `setPlaybackState` ngay từ lúc tạo; thiếu bước này hệ thống coi là phiên chưa phát và không định tuyến phím tới.
 
-### 5. Bong bóng nổi điều khiển (chat-head)
+### 5. Phát nền và thông báo điều khiển
 
-Dùng `TYPE_APPLICATION_OVERLAY` + `SYSTEM_ALERT_WINDOW` để vẽ bong bóng nổi trên các app khác (vd Google Maps). Bong bóng **không giành focus** (`FLAG_NOT_FOCUSABLE`) nên app bên dưới vẫn dùng bình thường. Kéo-thả xuống vùng đáy để đóng kiểu Messenger. Xem [showBubble / DragTouchListener](app/src/main/java/com/gsvn/aamusic/BackgroundPlaybackService.kt#L125).
+[BackgroundPlaybackService](app/src/main/java/com/gsvn/aamusic/BackgroundPlaybackService.kt) giữ phát nền bằng foreground service và WakeLock; thông báo MediaStyle cùng MediaSession cung cấp nút bài trước / phát-tạm dừng / bài kế / dừng. Không có cửa sổ nổi hay quyền hiển thị trên ứng dụng khác. Khi Android Auto kết nối, video luôn bị ẩn và chất lượng luồng bị ép xuống 144p; Drive Mode chỉ hiển thị ảnh nền tĩnh.
 
 ### 6. PlayerController – điều khiển qua JS injection
 
-Không ghép cứng với MediaSession của YouTube. [PlayerController](app/src/main/java/com/gsvn/aamusic/player/PlayerController.kt) điều khiển bằng cách **inject JS click vào nút trên thanh player** của YT Music / YouTube, đồng thời poll tiêu đề + trạng thái đang phát để cập nhật bubble/notification:
+Không ghép cứng với MediaSession của YouTube. [PlayerController](app/src/main/java/com/gsvn/aamusic/player/PlayerController.kt) điều khiển bằng cách **inject JS click vào nút trên thanh player** của YT Music / YouTube, đồng thời poll tiêu đề + trạng thái đang phát để cập nhật notification:
 
 ```js
 document.querySelector('ytmusic-player-bar #play-pause-button, ...').click();
@@ -611,7 +619,7 @@ Khi xe chạy, Android Auto chỉ cho dùng **giao diện media chuẩn**: hệ 
 | Không báo trạng thái trong lúc chờ | Báo `STATE_BUFFERING` kèm tên bài ngay khi nhận lệnh; lỗi (mất mạng, không có kết quả) thì báo `STATE_ERROR` kèm lời nhắn |
 
 Các chi tiết khác:
-- **WebView ngầm không gắn vào cửa sổ nào**, và đây là cố ý. Chromium coi WebView *chưa từng* gắn vào cửa sổ là đang hiển thị (`BrowserViewRenderer::IsClientVisible = !was_attached_ || (attached && window_visible)`), nên trình phát chạy bình thường. Nếu gắn vào overlay rồi gỡ ra thì nó bị coi là ẩn và video bị dừng.
+- **WebView ngầm không gắn vào cửa sổ nào**, và đây là cố ý. Chromium coi WebView *chưa từng* gắn vào cửa sổ là đang hiển thị (`BrowserViewRenderer::IsClientVisible = !was_attached_ || (attached && window_visible)`), nên trình phát chạy bình thường. Nếu gắn vào một cửa sổ rồi gỡ ra thì nó bị coi là ẩn và video bị dừng.
 - **Foreground service** được mở ngay khi nhận lệnh từ xe, *trước* bước tìm kiếm qua mạng. Hệ thống chỉ cho mở trong khoảng 10 giây sau lệnh (`MediaSessionService.tempAllowlistTargetPkgIfPossible`).
 - **Tìm kiếm**: root trả extras `android.media.browse.SEARCH_SUPPORTED = true`. `onSearch` dùng `result.detach()` rồi trả kết quả trong máy trước, kết quả YouTube sau. `onPlayFromSearch` phục vụ "Hey Google, phát … trên DriveTune".
 - **Ảnh bìa** đi qua [ArtworkProvider](app/src/main/java/com/gsvn/aamusic/player/ArtworkProvider.kt) dạng `content://`, vì Android Auto không tải ảnh `https://`.
@@ -671,5 +679,4 @@ Các chi tiết khác:
 APK sau khi build được tự động đổi tên `DriveTune-<version>[_debug].apk` và copy về thư mục gốc dự án (xem `RenameApkTask` trong [app/build.gradle.kts](app/build.gradle.kts#L118)).
 
 **Quyền cần cấp lần đầu khi chạy:**
-- **Hiển thị trên ứng dụng khác** (SYSTEM_ALERT_WINDOW) — cho bong bóng nổi.
 - **Thông báo** (POST_NOTIFICATIONS) — cho notification điều khiển.
