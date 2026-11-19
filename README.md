@@ -17,7 +17,7 @@ DriveTune và TiviNhà là hai ứng dụng Android miễn phí cho hai nhu cầ
 - 🗣️ **"Hey Google, phát … trên DriveTune"**: Trợ lý Google tìm và phát ngay, xếp các bài sau vào hàng chờ.
 - ⏭️ **Nút vô lăng đi theo hàng chờ**: hết hàng chờ thì tự phát các bài liên quan (cùng thể loại); hàng chờ tự dài thêm, nghe không hụt.
 - 🚗 **Nối Android Auto là vào Chế độ lái và phát tiếp**, rút ra là về trang YouTube; ảnh nền tự tối đi ban đêm cho khỏi chói.
-- 🎬 **Bật/tắt video trên điện thoại**: tuỳ chọn chỉ áp dụng ngoài Android Auto; khi nối Android Auto luôn ẩn hình, chỉ phát tiếng và ép luồng xuống 144p. Trên điện thoại, bật **Chỉ nghe tiếng khi xe chạy** để ẩn video khi đang di chuyển.
+- 🎬 **Bật/tắt video trên điện thoại**: tuỳ chọn chỉ áp dụng ngoài Android Auto; khi nối Android Auto luôn ẩn hình, chỉ phát tiếng và ép luồng xuống 144p.
 - 🖼️ **12 ảnh nền HD, 12 chủ đề**: oải hương, biển, hoa anh đào, đồi chè, rừng thu, núi tuyết, đồng hoa, đáy biển, phố đêm, ngân hà và hai hình đĩa than. Màu tươi mà không chói.
 - 🔎 **Tìm bài**: ô tìm viền xanh dễ nhận ra; ô trống thì bên dưới có các ô **Tìm nhanh** theo chủ đề (Khoa học, Điều thú vị, Khám phá, Du lịch các nước, Thế giới động vật, Bí ẩn, Lịch sử, Sách thay đổi cuộc sống, nhạc…), gõ chữ là ẩn đi; chạm bài là phát, các kết quả sau thành bài kế tiếp; kéo xuống là hiện thêm kết quả; trên Android Auto có bàn phím to và nút nói.
 - 🎲 **Ngẫu nhiên ưu tiên Yêu thích**: bắt đầu bằng bài yêu thích, xen bài ngẫu nhiên nhiều thể loại; Next tiếp tục qua hàng chờ và tự lấy lượt bài ngẫu nhiên tiếp theo.
