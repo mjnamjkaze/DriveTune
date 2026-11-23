@@ -248,7 +248,7 @@ Từ 2.4.0, app phát được **mà không cần mở trên điện thoại**. 
 Ứng dụng Android bọc WebView phát **YouTube / YouTube Music dạng audio-first**, làm riêng cho lúc lái xe — **Chế độ lái** nút to chữ rõ, thư viện Yêu thích / Hàng chờ / Danh sách dựng sẵn, lệnh nói, chạy nhạc nền, chặn quảng cáo, và **chạy được trên Android Auto** (cả giao diện media chuẩn lẫn chiếu màn hình).
 
 - Package: `com.gsvn.aamusic`
-- minSdk 35 · targetSdk 36 · versionName 2.28.0
+- minSdk 35 · targetSdk 36 · versionName 3.0.6
 - Ngôn ngữ: Kotlin + WebView (không dùng thư viện player riêng)
 
 > ⚠️ Dự án mang tính học tập / cá nhân. Việc bọc YouTube trong WebView, chặn quảng cáo và giả dạng app điều hướng để lên Android Auto có thể vi phạm ToS của YouTube/Google. Tự chịu trách nhiệm khi dùng.
